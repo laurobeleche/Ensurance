@@ -161,7 +161,7 @@ public:
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 1228138;
 		
-		MineGenesis(genesis, bnProofOfWorkLimit);
+		//MineGenesis(genesis, bnProofOfWorkLimit);
 
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x0000023ba4fa52f3f148202b3ddcacf73afe6671bcffb25416f1c1e8b67dd493"));
