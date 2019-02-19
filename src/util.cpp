@@ -418,7 +418,7 @@ boost::filesystem::path GetDefaultDataDir()
 // Unix: ~/.ensurance
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "EnsuranceMN";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Ensurance";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -430,10 +430,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "EnsuranceMN";
+    return pathRet / "Ensurance";
 #else
     // Unix
-    return pathRet / ".ensuranceMN";
+    return pathRet / ".ensurance";
 #endif
 #endif
 }
