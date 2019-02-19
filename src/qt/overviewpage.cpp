@@ -1,6 +1,6 @@
-// Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2011-2019 The Bitcoin developers
+// Copyright (c) 2014-2019 The Dash developers
+// Copyright (c) 2015-2019 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -171,7 +171,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
 
     // SEC labels
     ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, balance - immatureBalance, false, BitcoinUnits::separatorNever, true));
-    ui->labelPending->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedBalance, false, BitcoinUnits::separatorNever, true));
+    //ui->labelPending->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedBalance, false, BitcoinUnits::separatorNever, true));
     ui->labelImmature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, immatureBalance, false, BitcoinUnits::separatorNever, true));
     ui->labelTotal->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, balance + unconfirmedBalance, false, BitcoinUnits::separatorNever, true));
 
@@ -192,14 +192,14 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelImmature->setVisible(showImmature || showWatchOnlyImmature);
     ui->labelImmatureText->setVisible(showImmature || showWatchOnlyImmature);
     ui->labelWatchImmature->setVisible(showWatchOnlyImmature); // show watch-only immature balance
-    ui->labelPending->setVisible(showPending || showWatchOnlyPending);
+    //ui->labelPending->setVisible(showPending || showWatchOnlyPending);
     ui->labelPendingText->setVisible(showPending || showWatchOnlyPending);
     ui->labelWatchPending->setVisible(showWatchOnlyPending); // show watch-only pending balance
 
     // hide also the available balance if immature and pending are zero
-    ui->labelBalanceText->setVisible(ui->labelImmature->isVisible() || ui->labelPending->isVisible());
-    ui->labelBalance->setVisible(ui->labelImmature->isVisible() || ui->labelPending->isVisible());
-    ui->labelWatchAvailable->setVisible(ui->labelImmature->isVisible() || ui->labelPending->isVisible());
+    //ui->labelBalanceText->setVisible(ui->labelImmature->isVisible() || ui->labelPending->isVisible());
+    //ui->labelBalance->setVisible(ui->labelImmature->isVisible() || ui->labelPending->isVisible());
+    //ui->labelWatchAvailable->setVisible(ui->labelImmature->isVisible() || ui->labelPending->isVisible());
 
 
     static int cachedTxLocks = 0;
