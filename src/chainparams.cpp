@@ -53,7 +53,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x"));
+    (0, uint256("0x0000023ba4fa52f3f148202b3ddcacf73afe6671bcffb25416f1c1e8b67dd493"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -140,10 +140,10 @@ public:
         nModifierUpdateBlock = 1; // we use the version 2 for SEC
 
 		/**
-		Merkle root: 531ff130476dfa195a40b0920aeda07cf1aabc553775f08ce12562a6808268f5
-		Nonce: 1209073
+		Merkle root: 79cb9efb49e4f71e6b6b8ba3c817549e45f56192d15ce1d5a691cf0e5f5869f3
+		Nonce: 1228138
 		Bits: 504365040
-		Hash: 0000048adcfe13425ebe039aa0bb6ced96c94d58e1f908508f6dbde5472016a0
+		Hash: 0000023ba4fa52f3f148202b3ddcacf73afe6671bcffb25416f1c1e8b67dd493
 		**/
 		
         const char* pszTimestamp = "The Insurance is the best for your money 19/02/2019 for your life";
@@ -159,20 +159,20 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1550592806;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 0;
+        genesis.nNonce = 1228138;
 		
 		MineGenesis(genesis, bnProofOfWorkLimit);
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x0000023ba4fa52f3f148202b3ddcacf73afe6671bcffb25416f1c1e8b67dd493"));
+        assert(genesis.hashMerkleRoot == uint256("0x79cb9efb49e4f71e6b6b8ba3c817549e45f56192d15ce1d5a691cf0e5f5869f3"));
 
         // DNS Seeding
         //vSeeds.push_back(CDNSSeedData("185.223.30.226", "185.223.30.226"));
 		//vSeeds.push_back(CDNSSeedData("207.148.11.38", "207.148.11.38"));
 
         // Insurance addresses start with 'C'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 33);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 45);
         // Insurance script addresses start with '3'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 10);
         // Insurance private keys start with 'K'
