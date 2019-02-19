@@ -203,10 +203,10 @@ QT_TRANSLATE_NOOP("ensurance-core", ""
 QT_TRANSLATE_NOOP("ensurance-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("ensurance-core", "(22040 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("ensurance-core", "(22150 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("ensurance-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("ensurance-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("ensurance-core", "(must be 22040 for mainnet)"),
+QT_TRANSLATE_NOOP("ensurance-core", "(must be 22150 for mainnet)"),
 QT_TRANSLATE_NOOP("ensurance-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("ensurance-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("ensurance-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),

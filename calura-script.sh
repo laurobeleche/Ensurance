@@ -51,7 +51,7 @@ echo ""
 echo "Enter masternode private key for node $ALIAS"
 read PRIVKEY
 
-echo "Enter masternode port for node $ALIAS or use defauth port 22040"
+echo "Enter masternode port for node $ALIAS or use defauth port 22150"
 read PORT
 
 echo "rpcuser=user"`shuf -i 100000-10000000 -n 1` >> $CONF_DIR/$CONF_FILE

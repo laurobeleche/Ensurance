@@ -223,7 +223,7 @@ void OverviewPage::updateWatchOnlyLabels(bool showWatchOnly)
         ui->labelWatchImmature->hide();
     } else {
         ui->labelBalance->setIndent(20);
-        ui->labelPending->setIndent(20);
+        //ui->labelPending->setIndent(20);
         ui->labelImmature->setIndent(20);
         ui->labelTotal->setIndent(20);
     }
