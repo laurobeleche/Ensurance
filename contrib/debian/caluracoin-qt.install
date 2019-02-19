@@ -1,0 +1,6 @@
+usr/local/bin/ensurance-qt usr/bin
+share/pixmaps/ensurance32.xpm usr/share/pixmaps
+share/pixmaps/ensurance16.xpm usr/share/pixmaps
+share/pixmaps/ensurance128.xpm usr/share/pixmaps
+debian/ensurance-qt.desktop usr/share/applications
+debian/ensurance-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,26 @@
+# /etc/conf.d/ensuranced: config file for /etc/init.d/ensuranced
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ensurance/ensurance.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ensuranced"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ensuranced.pid"
+
+# Where to write ensuranced data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ensuranced"
+
+# User and group to own ensuranced process
+#BITCOIND_USER="ensurance"
+#BITCOIND_GROUP="ensurance"
+
+# Path to ensuranced executable
+#BITCOIND_BIN="/usr/bin/ensuranced"
+
+# Nice value to run ensuranced under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
