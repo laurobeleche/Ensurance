@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2019 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
-// Copyright (c) 2018 The Ensurance developers
+// Copyright (c) 2019 The Ensurance developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1618,63 +1618,9 @@ int64_t GetBlockValue(int nHeight)
     int64_t nSubsidy = 0;
 
     if (nHeight == 0)
-        nSubsidy = 25000000 * COIN; // Premine: 10,000,000
-    else if (nHeight <= 5000)
-        nSubsidy = 1 * COIN; // 5,000 SEC 
-    else if (nHeight > 5000 && nHeight <= 25000)
-        nSubsidy = 10 * COIN; // 200,000
-    else if (nHeight > 25000 && nHeight <= 26000)
-        nSubsidy = 20 * COIN; // 20,000
-    else if (nHeight > 26000 && nHeight <= 50000)
-        nSubsidy = 12 * COIN; // 288,000
-    else if (nHeight > 50000 && nHeight <= 51000)
-        nSubsidy = 22 * COIN; // 22,000
-    else if (nHeight > 51000 && nHeight <= 75000)
-        nSubsidy = 14 * COIN; // 336,000
-    else if (nHeight > 75000 && nHeight <= 75500)
-        nSubsidy = 30 * COIN; // 15,000
-    else if (nHeight > 75500 && nHeight <= 100000)
-        nSubsidy = 10 * COIN; // 245,000
-    else if (nHeight > 100000 && nHeight <= 105000)
-        nSubsidy = 500 * COIN; // 2,500,000
-    else if (nHeight > 105000 && nHeight <= 150000)
-        nSubsidy = 8 * COIN; // 399,200
-    else if (nHeight > 150000 && nHeight <= 151000)
-        nSubsidy = 30 * COIN; // 30,000
-    else if (nHeight > 151000 && nHeight <= 200000)
-        nSubsidy = 13 * COIN; // 637,000
-    else if (nHeight > 200000 && nHeight <= 205000)
-        nSubsidy = 750 * COIN; // 3,750,000
-	else if (nHeight > 205000 && nHeight <= 300000) // 27,815,200
-        nSubsidy = 6 * COIN; // 594,000
-	else if (nHeight > 300000 && nHeight <= 400000)
-        nSubsidy = 10 * COIN; // 1,000,000
-    else if (nHeight > 400000 && nHeight <= 405000)
-        nSubsidy = 20 * COIN; // 100,000
-    else if (nHeight > 405000 && nHeight <= 500000)
-        nSubsidy = 12 * COIN; // 1,140,000
-    else if (nHeight > 500000 && nHeight <= 505000) 
-        nSubsidy = 22 * COIN; // 110,000
-    else if (nHeight > 505000 && nHeight <= 600000)
-        nSubsidy = 14 * COIN; // 1,330,000
-    else if (nHeight > 600000 && nHeight <= 605000)
-        nSubsidy = 30 * COIN; // 150,000
-    else if (nHeight > 605000 && nHeight <= 700000)
-        nSubsidy = 10 * COIN; // 950,000
-    else if (nHeight > 700000 && nHeight <= 705000)
-        nSubsidy = 40 * COIN; // 200,000
-    else if (nHeight > 705000 && nHeight <= 800000)
-        nSubsidy = 8 * COIN; // 760,000
-    else if (nHeight > 800000 && nHeight <= 805000)
-        nSubsidy = 30 * COIN; // 150,000
-    else if (nHeight > 805000 && nHeight <= 900000)
-        nSubsidy = 13 * COIN; // 1,235,000
-    else if (nHeight > 900000 && nHeight <= 905000)
-        nSubsidy = 20 * COIN; // 100,000
-	else if (nHeight > 905000 && nHeight <= 1000000) // 35,610,200
-        nSubsidy = 6 * COIN; // 570,000
+        nSubsidy = 105000 * COIN; // Premine: 105,000
     else
-        nSubsidy = 50 * COIN;
+        nSubsidy = 1 * COIN;
 
     // Check if we reached the coin max supply.
     int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
@@ -1694,7 +1640,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 
     // No rewards till masternode activation.
     if (nHeight > Params().LAST_POW_BLOCK() && blockValue > 0)
-        ret = blockValue * 0.75; // 75% of block reward - 5% for dev budget
+        ret = blockValue * 0.9; // 90% of block reward
 
     return ret;
 }
