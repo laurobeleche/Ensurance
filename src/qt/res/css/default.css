@@ -1099,12 +1099,10 @@ QWidget .QFrame#frame_Content { /* Actual Content */
 
 QWidget .QFrame#frameBalances { /* Upper left side */
 	min-width:400px;
-	background-color: #1F2021;
 }
 
 QWidget .QFrame#frame_RecentTransactions { /* Right side */
 	min-width:400px;
-	background-color: #1F2021;
 }
 
 QWidget .QFrame#frameBalances > .QLabel {
@@ -1140,7 +1138,7 @@ QWidget .QFrame#frameBalances .QLabel#labelImmatureText, /* Immature Balance Lab
 QWidget .QFrame#frameBalances .QLabel#labelTotalText, /* Total Balance Label */
 QWidget .QFrame#frameBalances .QLabel#labelPendingText, /* Pending Balance Label */
 QWidget .QFrame#frameBalances .QLabel#labelBalanceText, /* Available Balance Label */
-QWidget .QFrame#frameBalances .QLabel#labelBalances { /* ZEST Balances Header Label */
+QWidget .QFrame#frameBalances .QLabel#labelBalances { /* INSURANCE Balances Header Label */
 	qproperty-alignment: 'AlignVCenter | AlignLeft';
 	min-width: 160px;
 	color: #fff;
@@ -1149,11 +1147,11 @@ QWidget .QFrame#frameBalances .QLabel#labelBalances { /* ZEST Balances Header La
 	font-size: 16px;
 }
 
-QWidget .QFrame#frameBalances .QLabel#labelBalances { /* ZEST Balances Header Label */
+QWidget .QFrame#frameBalances .QLabel#labelBalances { /* INSURANCE Balances Header Label */
 	font-weight: bold;
 }
 
-QWidget .QFrame#frameBalances #lineBalances { /* ZEST Balances Line separator */
+QWidget .QFrame#frameBalances #lineBalances { /* INSURANCE Balances Line separator */
 	background-color:#07a1ee;
 }
 
@@ -1194,7 +1192,7 @@ QWidget .QFrame#frame_RecentTransactions .QLabel#labelTransactionsStatus { /* Re
 }
 
 QWidget .QFrame#frame_RecentTransactions QListView { /* Transaction List */
-        background-color: #2b2c32;
+    
 	font-weight:normal;
 	font-size:14px;
 	margin-top:12px;
@@ -1207,7 +1205,7 @@ QDialog#SendCoinsDialog {
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
-	background-color:#1F2021;
+	
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl > .QLabel { /* Default Font Color and  Size */
