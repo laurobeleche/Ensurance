@@ -168,8 +168,8 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Ensurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
-        <translation>Ensurance sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella SECien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>Insurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
+        <translation>Insurance sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella SECien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -587,16 +587,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Ydin</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Ydin</translation>
     </message>
     <message>
         <source>Send coins to a SEC address</source>
         <translation>Lähetä kolikkoja SEC osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ensurance: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja ensurance: URIja)</translation>
+        <source>Request payments (generates QR codes and insurance: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja insurance: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -607,16 +607,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About Ensurance Core</source>
-        <translation>Ensurance Core &amp;ytimestä</translation>
+        <source>&amp;About Insurance Core</source>
+        <translation>Insurance Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about Ensurance Core</source>
-        <translation>Näytä tietoja Ensurance Ytimestä</translation>
+        <source>Show information about Insurance Core</source>
+        <translation>Näytä tietoja Insurance Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for Ensurance</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja Ensurance:lle</translation>
+        <source>Modify configuration options for Insurance</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja Insurance:lle</translation>
     </message>
     <message>
         <source>Sign messages with your SEC addresses to prove you own them</source>
@@ -655,8 +655,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a ensurance: URI or payment request</source>
-        <translation>Avaa ensurance: URI tai pyydä maksua</translation>
+        <source>Open a insurance: URI or payment request</source>
+        <translation>Avaa insurance: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -667,12 +667,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the Ensurance Core help message to get a list with possible Ensurance command-line options</source>
-        <translation>Näytä Ensurance Ydin apuviesti saadaksesi lista mahdollisista Ensurance komentolinja komennoista.</translation>
+        <source>Show the Insurance Core help message to get a list with possible Insurance command-line options</source>
+        <translation>Näytä Insurance Ydin apuviesti saadaksesi lista mahdollisista Insurance komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>Ensurance Core client</source>
-        <translation>Ensurance Ydin asiakasohjelma</translation>
+        <source>Insurance Core client</source>
+        <translation>Insurance Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -930,8 +930,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Ydin</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -949,12 +949,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Ensurance Core.</source>
-        <translation>Tervetuloa Ensurance Ytimeen.</translation>
+        <source>Welcome to Insurance Core.</source>
+        <translation>Tervetuloa Insurance Ytimeen.</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Ydin</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1150,12 +1150,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start Ensurance after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä Ensurance kun kirjaudut sisään.</translation>
+        <source>Automatically start Insurance after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä Insurance kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start Ensurance on system login</source>
-        <translation>&amp;Aloita Ensurance järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start Insurance on system login</source>
+        <translation>&amp;Aloita Insurance järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1174,12 +1174,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Ensurance.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Insurance.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the Ensurance network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Ensurance verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the Insurance network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä Insurance verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1396,8 +1396,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the Ensurance debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa Ensurance debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the Insurance debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa Insurance debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1508,8 +1508,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the Ensurance RPC console.</source>
-        <translation>Tervetuloa Ensurance RPC konsoliin.</translation>
+        <source>Welcome to the Insurance RPC console.</source>
+        <translation>Tervetuloa Insurance RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1551,12 +1551,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Ensurance network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Ensurance verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Insurance network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Insurance verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Ensurance network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Ensurance verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Insurance network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Insurance verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1918,8 +1918,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Ensurance Core is shutting down...</source>
-        <translation>Ensurance Core sammuu...</translation>
+        <source>Insurance Core is shutting down...</source>
+        <translation>Insurance Core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2060,8 +2060,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Ydin</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2080,8 +2080,8 @@ Please check the address and try again.</source>
         <translation>PIVX core kehittäjät</translation>
     </message>
     <message>
-        <source>The Ensurance Core developers</source>
-        <translation>Ensurance Core kehittäjät</translation>
+        <source>The Insurance Core developers</source>
+        <translation>Insurance Core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2384,7 +2384,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
@@ -2434,8 +2434,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Ensurance Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Ensurance Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Insurance Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Insurance Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between ensurance-cli and ensuranced)
- * of a given instance of the Ensurance system.
+ * CBaseChainParams defines the base parameters (shared between insurance-cli and insuranced)
+ * of a given instance of the Insurance system.
  */
 class CBaseChainParams
 {

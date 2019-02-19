@@ -164,8 +164,8 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>Ensurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
-        <translation>Ensurance 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 SEC 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>Insurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
+        <translation>Insurance 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 SEC 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -582,16 +582,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
         <source>Send coins to a SEC address</source>
         <translation>送出錢幣到 SEC 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ensurance: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 ensurance 位址)</translation>
+        <source>Request payments (generates QR codes and insurance: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 insurance 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -602,16 +602,16 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Ensurance Core</source>
-        <translation>&amp;關於 Ensurance Core</translation>
+        <source>&amp;About Insurance Core</source>
+        <translation>&amp;關於 Insurance Core</translation>
     </message>
     <message>
-        <source>Show information about Ensurance Core</source>
-        <translation>顯示 Ensurance Core 相關資訊</translation>
+        <source>Show information about Insurance Core</source>
+        <translation>顯示 Insurance Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for Ensurance</source>
-        <translation>修改 Ensurance 設定</translation>
+        <source>Modify configuration options for Insurance</source>
+        <translation>修改 Insurance 設定</translation>
     </message>
     <message>
         <source>Sign messages with your SEC addresses to prove you own them</source>
@@ -650,8 +650,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a ensurance: URI or payment request</source>
-        <translation>打開ensurance: 位址或付款請求 </translation>
+        <source>Open a insurance: URI or payment request</source>
+        <translation>打開insurance: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +662,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the Ensurance Core help message to get a list with possible Ensurance command-line options</source>
-        <translation>顯示 Ensurance Core 幫助訊息以取得 Ensurance 命令列表選項</translation>
+        <source>Show the Insurance Core help message to get a list with possible Insurance command-line options</source>
+        <translation>顯示 Insurance Core 幫助訊息以取得 Insurance 命令列表選項</translation>
     </message>
     <message>
-        <source>Ensurance Core client</source>
-        <translation>Ensurance Core 客戶端</translation>
+        <source>Insurance Core client</source>
+        <translation>Insurance Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     </context>
 <context>
@@ -885,8 +885,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     </context>
 <context>
@@ -949,6 +949,6 @@
     </message>
     </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     </context>
 </TS>

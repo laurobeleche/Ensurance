@@ -1,19 +1,19 @@
 [Unit]
-Description=Ensurance's distributed currency daemon
+Description=Insurance's distributed currency daemon
 After=network.target
 
 [Service]
-User=ensurance
-Group=ensurance
+User=insurance
+Group=insurance
 
 Type=forking
-PIDFile=/var/lib/ensuranced/ensuranced.pid
+PIDFile=/var/lib/insuranced/insuranced.pid
 
-ExecStart=/usr/bin/ensuranced -daemon -pid=/var/lib/ensuranced/ensuranced.pid \
-          -conf=/etc/ensurance/ensurance.conf -datadir=/var/lib/ensuranced
+ExecStart=/usr/bin/insuranced -daemon -pid=/var/lib/insuranced/insuranced.pid \
+          -conf=/etc/insurance/insurance.conf -datadir=/var/lib/insuranced
 
-ExecStop=-/usr/bin/ensurance-cli -conf=/etc/ensurance/ensurance.conf \
-         -datadir=/var/lib/ensuranced stop
+ExecStop=-/usr/bin/insurance-cli -conf=/etc/insurance/insurance.conf \
+         -datadir=/var/lib/insuranced stop
 
 Restart=always
 PrivateTmp=true

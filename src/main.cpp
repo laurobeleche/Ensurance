@@ -1,8 +1,8 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2009-2019 The Bitcoin developers
 // Copyright (c) 2014-2019 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
-// Copyright (c) 2019 The Ensurance developers
+// Copyright (c) 2019 The Insurance developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -46,7 +46,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "Ensurance cannot be compiled without assertions."
+#error "Insurance cannot be compiled without assertions."
 #endif
 
 // 6 comes from OPCODE (1) + vch.size() (1) + BIGNUM size (4)
@@ -79,7 +79,7 @@ bool fAlerts = DEFAULT_ALERTS;
 
 int64_t nReserveBalance = 0;
 
-/** Fees smaller than this (in uensurance) are considered zero fee (for relaying and mining)
+/** Fees smaller than this (in uinsurance) are considered zero fee (for relaying and mining)
  * We are ~100 times smaller then bitcoin now (2015-06-23), set minRelayTxFee only 10 times higher
  * so it's still 10 times lower comparing to bitcoin.
  */
@@ -2030,7 +2030,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("ensurance-scriptch");
+    RenameThread("insurance-scriptch");
     scriptcheckqueue.Thread();
 }
 

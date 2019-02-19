@@ -1,8 +1,8 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2009-2019 The Bitcoin developers
 // Copyright (c) 2014-2019 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
-// Copyright (c) 2019 The Ensurance developers
+// Copyright (c) 2019 The Insurance developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -26,8 +26,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called Ensurance (http://www.ensurancecoin.io),
- * which enables instant payments to anyone, anywhere in the world. Ensurance uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called Insurance (http://www.insurancecoin.io),
+ * which enables instant payments to anyone, anywhere in the world. Insurance uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -67,18 +67,18 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/ensurance.conf are parsed in qt/ensurance.cpp's main()
+    // If Qt is used, parameters/insurance.conf are parsed in qt/insurance.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
     if (mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Ensurance Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("Insurance Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (mapArgs.count("-version")) {
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  ensuranced [options]                     " + _("Start Ensurance Core Daemon") + "\n";
+                        "  insuranced [options]                     " + _("Start Insurance Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -114,17 +114,17 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "ensurance:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "insurance:"))
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in ensuranced anymore. Use the ensurance-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in insuranced anymore. Use the insurance-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon) {
-            fprintf(stdout, "Ensurance server starting\n");
+            fprintf(stdout, "Insurance server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -177,7 +177,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect ensurance signal handlers
+    // Connect insurance signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

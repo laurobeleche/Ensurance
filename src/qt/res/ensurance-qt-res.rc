@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Ensurance"
-            VALUE "FileDescription",    "Ensurance Core (OSS GUI client for Ensurance)"
+            VALUE "CompanyName",        "Insurance"
+            VALUE "FileDescription",    "Insurance Core (OSS GUI client for Insurance)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "ensurance-qt"
+            VALUE "InternalName",       "insurance-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "ensurance-qt.exe"
-            VALUE "ProductName",        "Ensurance Core"
+            VALUE "OriginalFilename",   "insurance-qt.exe"
+            VALUE "ProductName",        "Insurance Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

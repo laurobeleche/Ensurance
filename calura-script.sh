@@ -4,7 +4,7 @@ cd ~
 echo "****************************************************************************"
 echo "* Ubuntu 16.04 is the recommended opearting system for this install.       *"
 echo "*                                                                          *"
-echo "* This script will install and configure your Ensurance Wallet.           *"
+echo "* This script will install and configure your Insurance Wallet.           *"
 echo "****************************************************************************"
 echo && echo && echo
 echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
@@ -36,14 +36,14 @@ if [[ $DOSETUP =~ "y" ]] ; then
 fi
 
 ## COMPILE AND INSTALL
-wget https://github.com/laurobeleche/Ensurance-MN/releases/download/v1.0.2.1/linux.zip
+wget https://github.com/laurobeleche/Insurance-MN/releases/download/v1.0.2.1/linux.zip
 unzip linux.zip
-sudo chmod 755 ensurance*
-sudo mv ensurance* /usr/bin
+sudo chmod 755 insurance*
+sudo mv insurance* /usr/bin
 
-CONF_DIR=~/.ensuranceMN/
+CONF_DIR=~/.insuranceMN/
 mkdir $CONF_DIR
-CONF_FILE=ensurance.conf
+CONF_FILE=insurance.conf
 
 IP=`ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p'`
 
@@ -68,8 +68,8 @@ echo "" >> $CONF_DIR/$CONF_FILE
 echo "masternodeaddr=$IP:$PORT" >> $CONF_DIR/$CONF_FILE
 echo "masternodeprivkey=$PRIVKEY" >> $CONF_DIR/$CONF_FILE
 
-echo "Folder to edit the file ensurance.conf - .ensuranceMN"
-echo "Use ensuranced to start wallet"
-echo "Use ensurance-cli stop to stop wallet"
+echo "Folder to edit the file insurance.conf - .insuranceMN"
+echo "Use insuranced to start wallet"
+echo "Use insurance-cli stop to stop wallet"
 
-ensuranced
+insuranced

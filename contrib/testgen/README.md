@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven Ensurance tests.
+Utilities to generate test vectors for the data-driven Insurance tests.
 
 Usage:
 

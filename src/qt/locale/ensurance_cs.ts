@@ -172,8 +172,8 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Ensurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
-        <translation>Ensurance se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše SECy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>Insurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
+        <translation>Insurance se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše SECy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -594,16 +594,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
         <source>Send coins to a SEC address</source>
         <translation>Odeslat platbuna SEC adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ensurance: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a ensurance: URIs)</translation>
+        <source>Request payments (generates QR codes and insurance: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a insurance: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -614,12 +614,12 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About Ensurance Core</source>
-        <translation>&amp;O Ensurance Core</translation>
+        <source>&amp;About Insurance Core</source>
+        <translation>&amp;O Insurance Core</translation>
     </message>
     <message>
-        <source>Show information about Ensurance Core</source>
-        <translation>Zobraz informace o Ensurance Core</translation>
+        <source>Show information about Insurance Core</source>
+        <translation>Zobraz informace o Insurance Core</translation>
     </message>
     <message>
         <source>Modify configuration options for SEC</source>
@@ -662,8 +662,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a ensurance: URI or payment request</source>
-        <translation>Otevřít ensurance: URI nebo platební žádost</translation>
+        <source>Open a insurance: URI or payment request</source>
+        <translation>Otevřít insurance: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -674,12 +674,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the Ensurance Core help message to get a list with possible Ensurance command-line options</source>
-        <translation>Zobrazit Ensurance Core pomocnou zpráv pro získání seznamu možných parametrů Ensurance pro příkazy do příkazové řádky</translation>
+        <source>Show the Insurance Core help message to get a list with possible Insurance command-line options</source>
+        <translation>Zobrazit Insurance Core pomocnou zpráv pro získání seznamu možných parametrů Insurance pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>Ensurance Core client</source>
-        <translation>Ensurance Core klient</translation>
+        <source>Insurance Core client</source>
+        <translation>Insurance Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -801,8 +801,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (ensurance.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (ensurance.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (insurance.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (insurance.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1104,12 +1104,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
-        <source>About Ensurance Core</source>
-        <translation>O Ensurance Core</translation>
+        <source>About Insurance Core</source>
+        <translation>O Insurance Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1143,16 +1143,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to Ensurance Core.</source>
-        <translation>Vítejte v Ensurance Core.</translation>
+        <source>Welcome to Insurance Core.</source>
+        <translation>Vítejte v Insurance Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Ensurance Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Ensurance Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Insurance Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Insurance Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>Ensurance Core will download and store a copy of the Ensurance block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Ensurance Core stáhne a uloží kopii Ensurance blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>Insurance Core will download and store a copy of the Insurance block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Insurance Core stáhne a uloží kopii Insurance blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1163,8 +1163,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1465,12 +1465,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Ensurance after logging in to the system.</source>
-        <translation>Automaticky spustit Ensurance po přihlášení do systému</translation>
+        <source>Automatically start Insurance after logging in to the system.</source>
+        <translation>Automaticky spustit Insurance po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start Ensurance on system login</source>
-        <translation>&amp;Spusti Ensurance při přihlášení do systému</translation>
+        <source>&amp;Start Insurance on system login</source>
+        <translation>&amp;Spusti Insurance při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -2135,8 +2135,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     </context>
 <context>
@@ -2239,7 +2239,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

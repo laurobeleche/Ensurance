@@ -168,8 +168,8 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>Ensurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
-        <translation>Ensurance сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши SEC от кражи с использованием вредоносного ПО.</translation>
+        <source>Insurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
+        <translation>Insurance сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши SEC от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -590,16 +590,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
         <source>Send coins to a SEC address</source>
         <translation>Отправить монеты на SEC адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ensurance: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и ensurance: URI)</translation>
+        <source>Request payments (generates QR codes and insurance: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и insurance: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,16 +610,16 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About Ensurance Core</source>
-        <translation>&amp;О Ensurance Core</translation>
+        <source>&amp;About Insurance Core</source>
+        <translation>&amp;О Insurance Core</translation>
     </message>
     <message>
-        <source>Show information about Ensurance Core</source>
-        <translation>Показать информацию о Ensurance Core</translation>
+        <source>Show information about Insurance Core</source>
+        <translation>Показать информацию о Insurance Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Ensurance</source>
-        <translation>Изменение параметров конфигурации Ensurance</translation>
+        <source>Modify configuration options for Insurance</source>
+        <translation>Изменение параметров конфигурации Insurance</translation>
     </message>
     <message>
         <source>Sign messages with your SEC addresses to prove you own them</source>
@@ -658,8 +658,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a ensurance: URI or payment request</source>
-        <translation>Открыть ensurance: URI или запрос платежа</translation>
+        <source>Open a insurance: URI or payment request</source>
+        <translation>Открыть insurance: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -670,12 +670,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the Ensurance Core help message to get a list with possible Ensurance command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды Ensurance</translation>
+        <source>Show the Insurance Core help message to get a list with possible Insurance command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды Insurance</translation>
     </message>
     <message>
-        <source>Ensurance Core client</source>
-        <translation>Клиент Ensurance Core</translation>
+        <source>Insurance Core client</source>
+        <translation>Клиент Insurance Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -801,8 +801,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (ensurance.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (ensurance.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (insurance.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (insurance.conf).</translation>
     </message>
 </context>
 <context>
@@ -975,8 +975,8 @@ MultiSend: %1</translation>
         <translation>средне-высокий</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uensurance per input.</source>
-        <translation>Может вариировать +/- %1 uensurance к вводу</translation>
+        <source>Can vary +/- %1 uinsurance per input.</source>
+        <translation>Может вариировать +/- %1 uinsurance к вводу</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1136,16 +1136,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Ensurance Core</source>
-        <translation>О Ensurance Core</translation>
+        <source>About Insurance Core</source>
+        <translation>О Insurance Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1191,16 +1191,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Ensurance Core.</source>
-        <translation>Добро пожаловать в Ensurance Core.</translation>
+        <source>Welcome to Insurance Core.</source>
+        <translation>Добро пожаловать в Insurance Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Ensurance Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Ensurance Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Insurance Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Insurance Core.</translation>
     </message>
     <message>
-        <source>Ensurance Core will download and store a copy of the Ensurance block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Ensurance Core загрузит и сохранит копию цепочки блоков Ensurance. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>Insurance Core will download and store a copy of the Insurance block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Insurance Core загрузит и сохранит копию цепочки блоков Insurance. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1211,8 +1211,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1531,8 +1531,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the Ensurance client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт Ensurance через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the Insurance client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт Insurance через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1551,12 +1551,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start Ensurance after logging in to the system.</source>
-        <translation>Автоматически запускать Ensurance после входа в систему.</translation>
+        <source>Automatically start Insurance after logging in to the system.</source>
+        <translation>Автоматически запускать Insurance после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start Ensurance on system login</source>
-        <translation>&amp;Запускать Ensurance при входе в систему</translation>
+        <source>&amp;Start Insurance on system login</source>
+        <translation>&amp;Запускать Insurance при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1583,16 +1583,16 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Ensurance.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Ensurance.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Insurance.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Insurance.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Ensurance network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети Ensurance через SOCKS5 прокси.</translation>
+        <source>Connect to the Insurance network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети Insurance через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1738,8 +1738,8 @@ Please check the address and try again.</source>
         <translation>Награды за хранение и мастерноды, которые еще не *созрели*</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ensurance network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Ensurance после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Insurance network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Insurance после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1801,8 +1801,8 @@ Please check the address and try again.</source>
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start ensurance: click-to-pay handler</source>
-        <translation>Не удалось запустить ensurance: обработчик click-to-pay </translation>
+        <source>Cannot start insurance: click-to-pay handler</source>
+        <translation>Не удалось запустить insurance: обработчик click-to-pay </translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid SEC address or malformed URI parameters.</source>
@@ -2025,8 +2025,8 @@ Please check the address and try again.</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the Ensurance debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки Ensurance. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the Insurance debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки Insurance. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2186,8 +2186,8 @@ Please check the address and try again.</source>
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the Ensurance RPC console.</source>
-        <translation>Добро пожаловать в окружение Ensurance RPC.</translation>
+        <source>Welcome to the Insurance RPC console.</source>
+        <translation>Добро пожаловать в окружение Insurance RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2540,8 +2540,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Ensurance Core is shutting down...</source>
-        <translation>Ensurance Core выключается...</translation>
+        <source>Insurance Core is shutting down...</source>
+        <translation>Insurance Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2630,8 +2630,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2650,8 +2650,8 @@ Please check the address and try again.</source>
         <translation>Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>The Ensurance Core developers</source>
-        <translation>Разработчики Ensurance Core</translation>
+        <source>The Insurance Core developers</source>
+        <translation>Разработчики Insurance Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2902,7 +2902,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>
@@ -2940,8 +2940,8 @@ Please check the address and try again.</source>
         <translation>Copyright (C) 2015-%i Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Ensurance Core Developers</source>
-        <translation>Copyright (C) 2017-%i Разработчики Ensurance Core</translation>
+        <source>Copyright (C) 2017-%i The Insurance Core Developers</source>
+        <translation>Copyright (C) 2017-%i Разработчики Insurance Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

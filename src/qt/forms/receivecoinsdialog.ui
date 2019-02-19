@@ -159,7 +159,7 @@
                     <string notr="true">color:#808181; font-size:14px; font-weight: normal;</string>
                    </property>
                    <property name="text">
-                    <string>You may request ensurance coins worldwide through a wallet-to-wallet transfer using your Ensurance wallet.</string>
+                    <string>You may request insurance coins worldwide through a wallet-to-wallet transfer using your Insurance wallet.</string>
                    </property>
                    <property name="wordWrap">
                     <bool>true</bool>
@@ -513,7 +513,7 @@
                   </size>
                  </property>
                  <property name="toolTip">
-                  <string>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Ensurance network.</string>
+                  <string>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Insurance network.</string>
                  </property>
                  <property name="styleSheet">
                   <string notr="true">color:transparent;</string>
@@ -574,7 +574,7 @@ background-color: #09D9B7;
                     <string>&amp;Request payment</string>
                    </property>
                    <property name="icon">
-                    <iconset resource="../ensurance.qrc">
+                    <iconset resource="../insurance.qrc">
                      <normaloff>:/icons/receiving_addresses</normaloff>:/icons/receiving_addresses</iconset>
                    </property>
                    <property name="checkable">
@@ -641,7 +641,7 @@ background-color: #09D9B7;
                     <string>Clear</string>
                    </property>
                    <property name="icon">
-                    <iconset resource="../ensurance.qrc">
+                    <iconset resource="../insurance.qrc">
                      <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
                    </property>
                    <property name="autoDefault">
@@ -654,7 +654,7 @@ background-color: #09D9B7;
                <item row="6" column="2">
                 <widget class="QLineEdit" name="reqMessage">
                  <property name="toolTip">
-                  <string>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Ensurance network.</string>
+                  <string>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Insurance network.</string>
                  </property>
                  <property name="styleSheet">
                   <string notr="true">background:transparent; margin-bottom:2px solid; margin-color: #046B5B;
@@ -873,7 +873,7 @@ background-color: #09D9B7;
                 <string>Show</string>
                </property>
                <property name="icon">
-                <iconset resource="../ensurance.qrc">
+                <iconset resource="../insurance.qrc">
                  <normaloff>:/icons/edit</normaloff>:/icons/edit</iconset>
                </property>
                <property name="autoDefault">
@@ -921,7 +921,7 @@ background-color: #09D9B7;
                 <string>Remove</string>
                </property>
                <property name="icon">
-                <iconset resource="../ensurance.qrc">
+                <iconset resource="../insurance.qrc">
                  <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
                </property>
                <property name="autoDefault">
@@ -990,7 +990,7 @@ background-color: #09D9B7;
   <tabstop>removeRequestButton</tabstop>
  </tabstops>
  <resources>
-  <include location="../ensurance.qrc"/>
+  <include location="../insurance.qrc"/>
  </resources>
  <connections/>
 </ui>

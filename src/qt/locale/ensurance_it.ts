@@ -172,8 +172,8 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>Ensurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
-        <translation>Ensurance verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi SEC dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>Insurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
+        <translation>Insurance verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi SEC dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -586,16 +586,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
         <source>Send coins to a SEC address</source>
         <translation>Invia monete all'indirizzo SEC</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ensurance: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e ensurance: URIs)</translation>
+        <source>Request payments (generates QR codes and insurance: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e insurance: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -606,16 +606,16 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Ensurance Core</source>
-        <translation>&amp;Informazioni Ensurance Core</translation>
+        <source>&amp;About Insurance Core</source>
+        <translation>&amp;Informazioni Insurance Core</translation>
     </message>
     <message>
-        <source>Show information about Ensurance Core</source>
-        <translation>Visualizza informazioni su Ensurance Core</translation>
+        <source>Show information about Insurance Core</source>
+        <translation>Visualizza informazioni su Insurance Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Ensurance</source>
-        <translation>Modifica le opzioni di configurazione per Ensurance</translation>
+        <source>Modify configuration options for Insurance</source>
+        <translation>Modifica le opzioni di configurazione per Insurance</translation>
     </message>
     <message>
         <source>Sign messages with your SEC addresses to prove you own them</source>
@@ -634,16 +634,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a ensurance: URI or payment request</source>
-        <translation>Apri un ensurance: URI o richiesta di pagamento</translation>
+        <source>Open a insurance: URI or payment request</source>
+        <translation>Apri un insurance: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the Ensurance Core help message to get a list with possible Ensurance command-line options</source>
-        <translation>Mostra il messaggio di aiuto Ensurance Core per ottenere un elenco con le possibili opzioni di riga di comando Ensurance</translation>
+        <source>Show the Insurance Core help message to get a list with possible Insurance command-line options</source>
+        <translation>Mostra il messaggio di aiuto Insurance Core per ottenere un elenco con le possibili opzioni di riga di comando Insurance</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -745,8 +745,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (ensurance.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (ensurance.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (insurance.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (insurance.conf)</translation>
     </message>
 </context>
 <context>
@@ -880,8 +880,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -907,8 +907,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1153,8 +1153,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     </context>
 <context>
@@ -1249,7 +1249,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

@@ -166,7 +166,7 @@ background-color: #09D9B7;
             <string>&amp;Add Address / Key</string>
            </property>
            <property name="icon">
-            <iconset resource="../ensurance.qrc">
+            <iconset resource="../insurance.qrc">
              <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
            </property>
            <property name="autoDefault">
@@ -281,7 +281,7 @@ background-color: #09D9B7;
             <string>C&amp;reate</string>
            </property>
            <property name="icon">
-            <iconset resource="../ensurance.qrc">
+            <iconset resource="../insurance.qrc">
              <normaloff>:/icons/filesave</normaloff>:/icons/filesave</iconset>
            </property>
            <property name="autoDefault">
@@ -392,7 +392,7 @@ background-color: #09D9B7;
             <string>&amp;Import Redeem</string>
            </property>
            <property name="icon">
-            <iconset resource="../ensurance.qrc">
+            <iconset resource="../insurance.qrc">
              <normaloff>:/icons/receiving_addresses</normaloff>:/icons/receiving_addresses</iconset>
            </property>
           </widget>
@@ -574,7 +574,7 @@ background-color: #09D9B7;
                 <string>Add a Raw Input</string>
                </property>
                <property name="icon">
-                <iconset resource="../ensurance.qrc">
+                <iconset resource="../insurance.qrc">
                  <normaloff>:/css/default</normaloff>:/css/default</iconset>
                </property>
               </widget>
@@ -678,7 +678,7 @@ background-color: #09D9B7;
                 <string>Add &amp;Destination</string>
                </property>
                <property name="icon">
-                <iconset resource="../ensurance.qrc">
+                <iconset resource="../insurance.qrc">
                  <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
                </property>
               </widget>
@@ -790,7 +790,7 @@ background-color: #09D9B7;
                 <string>Cr&amp;eate</string>
                </property>
                <property name="icon">
-                <iconset resource="../ensurance.qrc">
+                <iconset resource="../insurance.qrc">
                  <normaloff>:/icons/export</normaloff>:/icons/export</iconset>
                </property>
                <property name="autoDefault">
@@ -954,7 +954,7 @@ background-color: #09D9B7;
                 <string>S&amp;ign</string>
                </property>
                <property name="icon">
-                <iconset resource="../ensurance.qrc">
+                <iconset resource="../insurance.qrc">
                  <normaloff>:/icons/edit</normaloff>:/icons/edit</iconset>
                </property>
                <property name="autoDefault">
@@ -1014,7 +1014,7 @@ background-color: #09D9B7;
                 <string>Co&amp;mmit</string>
                </property>
                <property name="icon">
-                <iconset resource="../ensurance.qrc">
+                <iconset resource="../insurance.qrc">
                  <normaloff>:/icons/send</normaloff>:/icons/send</iconset>
                </property>
                <property name="autoDefault">
@@ -1067,7 +1067,7 @@ background-color: #09D9B7;
                   <string>Add Private &amp;Key</string>
                  </property>
                  <property name="icon">
-                  <iconset resource="../ensurance.qrc">
+                  <iconset resource="../insurance.qrc">
                    <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
                  </property>
                 </widget>
@@ -1195,7 +1195,7 @@ background-color: #09D9B7;
   </layout>
  </widget>
  <resources>
-  <include location="../ensurance.qrc"/>
+  <include location="../insurance.qrc"/>
  </resources>
  <connections/>
 </ui>

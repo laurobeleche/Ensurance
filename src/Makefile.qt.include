@@ -1,33 +1,33 @@
-bin_PROGRAMS += qt/ensurance-qt
+bin_PROGRAMS += qt/insurance-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# ensurance qt core #
+# insurance qt core #
 QT_TS = \
-  qt/locale/ensurance_bg.ts \
-  qt/locale/ensurance_ca.ts \
-  qt/locale/ensurance_cs.ts \
-  qt/locale/ensurance_da.ts \
-  qt/locale/ensurance_de.ts \
-  qt/locale/ensurance_en.ts \
-  qt/locale/ensurance_en_US.ts \
-  qt/locale/ensurance_es.ts \
-  qt/locale/ensurance_fi.ts \
-  qt/locale/ensurance_fr_FR.ts \
-  qt/locale/ensurance_it.ts \
-  qt/locale/ensurance_ja.ts \
-  qt/locale/ensurance_ko_KR.ts \
-  qt/locale/ensurance_nl.ts \
-  qt/locale/ensurance_pl.ts \
-  qt/locale/ensurance_pt.ts \
-  qt/locale/ensurance_pt_BR.ts \
-  qt/locale/ensurance_ro_RO.ts \
-  qt/locale/ensurance_ru.ts \
-  qt/locale/ensurance_sk.ts \
-  qt/locale/ensurance_sv.ts \
-  qt/locale/ensurance_tr.ts \
-  qt/locale/ensurance_uk.ts \
-  qt/locale/ensurance_zh_CN.ts \
-  qt/locale/ensurance_zh_TW.ts
+  qt/locale/insurance_bg.ts \
+  qt/locale/insurance_ca.ts \
+  qt/locale/insurance_cs.ts \
+  qt/locale/insurance_da.ts \
+  qt/locale/insurance_de.ts \
+  qt/locale/insurance_en.ts \
+  qt/locale/insurance_en_US.ts \
+  qt/locale/insurance_es.ts \
+  qt/locale/insurance_fi.ts \
+  qt/locale/insurance_fr_FR.ts \
+  qt/locale/insurance_it.ts \
+  qt/locale/insurance_ja.ts \
+  qt/locale/insurance_ko_KR.ts \
+  qt/locale/insurance_nl.ts \
+  qt/locale/insurance_pl.ts \
+  qt/locale/insurance_pt.ts \
+  qt/locale/insurance_pt_BR.ts \
+  qt/locale/insurance_ro_RO.ts \
+  qt/locale/insurance_ru.ts \
+  qt/locale/insurance_sk.ts \
+  qt/locale/insurance_sv.ts \
+  qt/locale/insurance_tr.ts \
+  qt/locale/insurance_uk.ts \
+  qt/locale/insurance_zh_CN.ts \
+  qt/locale/insurance_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -107,16 +107,16 @@ BITCOIN_MM = \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/ensurance.moc \
+  qt/insurance.moc \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
-QT_QRC_CPP = qt/qrc_ensurance.cpp
-QT_QRC = qt/ensurance.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_ensurance_locale.cpp
-QT_QRC_LOCALE = qt/ensurance_locale.qrc
+QT_QRC_CPP = qt/qrc_insurance.cpp
+QT_QRC = qt/insurance.qrc
+QT_QRC_LOCALE_CPP = qt/qrc_insurance_locale.cpp
+QT_QRC_LOCALE = qt/insurance_locale.qrc
 
 PROTOBUF_CC = qt/paymentrequest.pb.cc
 PROTOBUF_H = qt/paymentrequest.pb.h
@@ -233,12 +233,12 @@ RES_ICONS = \
   qt/res/icons/tx_input.png \
   qt/res/icons/tx_output.png \
   qt/res/icons/tx_mined.png \
-  qt/res/icons/unit_ensurance.png \
-  qt/res/icons/unit_mensurance.png \
-  qt/res/icons/unit_uensurance.png \
-  qt/res/icons/unit_tensurance.png \
-  qt/res/icons/unit_tmensurance.png \
-  qt/res/icons/unit_tuensurance.png \
+  qt/res/icons/unit_insurance.png \
+  qt/res/icons/unit_minsurance.png \
+  qt/res/icons/unit_uinsurance.png \
+  qt/res/icons/unit_tinsurance.png \
+  qt/res/icons/unit_tminsurance.png \
+  qt/res/icons/unit_tuinsurance.png \
   qt/res/icons/warning.png \
   qt/res/icons/overview.png \
   qt/res/icons/history.png
@@ -323,7 +323,7 @@ RES_CSS = \
 
 RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
 
-BITCOIN_RC = qt/res/ensurance-qt-res.rc
+BITCOIN_RC = qt/res/insurance-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms
@@ -343,69 +343,69 @@ QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:
 # Most files will depend on the forms and moc files as includes. Generate them
 # before anything else.
 $(QT_MOC): $(QT_FORMS_H)
-$(qt_libbitcoinqt_a_OBJECTS) $(qt_ensurance_qt_OBJECTS) : | $(QT_MOC)
+$(qt_libbitcoinqt_a_OBJECTS) $(qt_insurance_qt_OBJECTS) : | $(QT_MOC)
 
 #Generating these with a half-written protobuf header leads to wacky results.
 #This makes sure it's done.
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# ensurance-qt binary #
-qt_ensurance_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+# insurance-qt binary #
+qt_insurance_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-qt_ensurance_qt_SOURCES = qt/ensurance.cpp
+qt_insurance_qt_SOURCES = qt/insurance.cpp
 if TARGET_DARWIN
-  qt_ensurance_qt_SOURCES += $(BITCOIN_MM)
+  qt_insurance_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  qt_ensurance_qt_SOURCES += $(BITCOIN_RC)
+  qt_insurance_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_ensurance_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
+qt_insurance_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-qt_ensurance_qt_LDADD += $(LIBBITCOIN_WALLET)
+qt_insurance_qt_LDADD += $(LIBBITCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_ensurance_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+qt_insurance_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_ensurance_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+qt_insurance_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-qt_ensurance_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_ensurance_qt_LIBTOOLFLAGS = --tag CXX
+qt_insurance_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qt_insurance_qt_LIBTOOLFLAGS = --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
 QT_QM=$(QT_TS:.ts=.qm)
 
 .SECONDARY: $(QT_QM)
 
-qt/ensurancestrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
+qt/insurancestrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) $(PYTHON) ../share/qt/extract_strings_qt.py $^
 
-translate: qt/ensurancestrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: qt/insurancestrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/ensurance_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/insurance_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
 	@test -f $(@D)/$(<F) || cp -f $< $(@D)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name ensurance_locale $(@D)/$(<F) | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name insurance_locale $(@D)/$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name ensurance $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name insurance $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno
 
 CLEANFILES += $(CLEAN_QT)
 
-ensurance_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_ensurance_qt_OBJECTS) qt/ensurance-qt$(EXEEXT) $(LIBBITCOINQT)
+insurance_qt_clean: FORCE
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_insurance_qt_OBJECTS) qt/insurance-qt$(EXEEXT) $(LIBBITCOINQT)
 
-ensurance_qt : qt/ensurance-qt$(EXEEXT)
+insurance_qt : qt/insurance-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

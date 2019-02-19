@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/ensurance/.ensurance" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/ensurance/.ensurance"
+if [ -d "/var/lib/insurance/.insurance" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/insurance/.insurance"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/ensuranced"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/insuranced"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/ensurance/ensurance.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/ensuranced}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/ensuranced.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/insurance/insurance.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/insuranced}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/insuranced.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-ensurance}
-BITCOIND_GROUP=${BITCOIND_GROUP:-ensurance}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/ensuranced}
+BITCOIND_USER=${BITCOIND_USER:-insurance}
+BITCOIND_GROUP=${BITCOIND_GROUP:-insurance}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/insuranced}
 
-name="Ensurance Core Daemon"
-description="Ensurance crypto-currency p2p network daemon"
+name="Insurance Core Daemon"
+description="Insurance crypto-currency p2p network daemon"
 
-command="/usr/bin/ensuranced"
+command="/usr/bin/insuranced"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run ensuranced."
+		eerror "ERROR: You must set a secure rpcpassword to run insuranced."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Ensurance Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Insurance Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

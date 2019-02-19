@@ -34,7 +34,7 @@ HelpMessageDialog::HelpMessageDialog(QWidget* parent, bool about) : QDialog(pare
     ui->setupUi(this);
     GUIUtil::restoreWindowGeometry("nHelpMessageDialogWindow", this->size(), this);
 
-    QString version = tr("Ensurance Core") + " " + tr("version") + " " + QString::fromStdString(FormatFullVersion());
+    QString version = tr("Insurance Core") + " " + tr("version") + " " + QString::fromStdString(FormatFullVersion());
 /* On x86 add a bit specifier to the version so that users can distinguish between
      * 32 and 64 bit builds. On other architectures, 32/64 bit may be more ambigious.
      */
@@ -45,7 +45,7 @@ HelpMessageDialog::HelpMessageDialog(QWidget* parent, bool about) : QDialog(pare
 #endif
 
     if (about) {
-        setWindowTitle(tr("About Ensurance Core"));
+        setWindowTitle(tr("About Insurance Core"));
 
         /// HTML-format the license message from the core
         QString licenseInfo = QString::fromStdString(LicenseInfo());
@@ -67,7 +67,7 @@ HelpMessageDialog::HelpMessageDialog(QWidget* parent, bool about) : QDialog(pare
     } else {
         setWindowTitle(tr("Command-line options"));
         QString header = tr("Usage:") + "\n" +
-                         "  ensurance-qt [" + tr("command-line options") + "]                     " + "\n";
+                         "  insurance-qt [" + tr("command-line options") + "]                     " + "\n";
         QTextCursor cursor(ui->helpMessage->document());
         cursor.insertText(version);
         cursor.insertBlock();
@@ -154,7 +154,7 @@ ShutdownWindow::ShutdownWindow(QWidget* parent, Qt::WindowFlags f) : QWidget(par
 {
     QVBoxLayout* layout = new QVBoxLayout();
     layout->addWidget(new QLabel(
-        tr("Ensurance Core is shutting down...") + "<br /><br />" +
+        tr("Insurance Core is shutting down...") + "<br /><br />" +
         tr("Do not shut down the computer until this window disappears.")));
     setLayout(layout);
 }

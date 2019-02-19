@@ -172,8 +172,8 @@
         <translation>Підтвердження шифрування гаманця</translation>
     </message>
     <message>
-        <source>Ensurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
-        <translation>Ensurance зараз закриється, щоб завершити процес шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші SEC'и від крадіжки зловмисним програмним забезпеченням, що заражає ваш комп'ютер.</translation>
+        <source>Insurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
+        <translation>Insurance зараз закриється, щоб завершити процес шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші SEC'и від крадіжки зловмисним програмним забезпеченням, що заражає ваш комп'ютер.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -357,6 +357,6 @@
     </message>
     </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     </context>
 </TS>

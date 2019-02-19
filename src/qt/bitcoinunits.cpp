@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2019 The Bitcoin developers
 // Copyright (c) 2014-2019 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
-// Copyright (c) 2019 The Ensurance developers
+// Copyright (c) 2019 The Insurance developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,11 +42,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case SEC:
-        return QString("ensurance");
+        return QString("insurance");
     case mSEC:
-        return QString("mensurance");
+        return QString("minsurance");
     case uSEC:
-        return QString::fromUtf8("uensurance");
+        return QString::fromUtf8("uinsurance");
     default:
         return QString("???");
     }

@@ -1,5 +1,5 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2009-2019 The Bitcoin developers
 // Copyright (c) 2014-2019 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
@@ -242,10 +242,10 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Ensurance server.");
+            "\nStop Insurance server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Ensurance server stopping";
+    return "Insurance server stopping";
 }
 
 
@@ -327,33 +327,33 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Ensurance features */
-        {"ensurance", "masternode", &masternode, true, true, false},
-        {"ensurance", "listmasternodes", &listmasternodes, true, true, false},
-        {"ensurance", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"ensurance", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"ensurance", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"ensurance", "masternodedebug", &masternodedebug, true, true, false},
-        {"ensurance", "startmasternode", &startmasternode, true, true, false},
-        {"ensurance", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"ensurance", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"ensurance", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"ensurance", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"ensurance", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"ensurance", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"ensurance", "mnbudget", &mnbudget, true, true, false},
-        {"ensurance", "preparebudget", &preparebudget, true, true, false},
-        {"ensurance", "submitbudget", &submitbudget, true, true, false},
-        {"ensurance", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"ensurance", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"ensurance", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"ensurance", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"ensurance", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"ensurance", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"ensurance", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"ensurance", "checkbudgets", &checkbudgets, true, true, false},
-        {"ensurance", "mnsync", &mnsync, true, true, false},
-        {"ensurance", "spork", &spork, true, true, false},
+        /* Insurance features */
+        {"insurance", "masternode", &masternode, true, true, false},
+        {"insurance", "listmasternodes", &listmasternodes, true, true, false},
+        {"insurance", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"insurance", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"insurance", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"insurance", "masternodedebug", &masternodedebug, true, true, false},
+        {"insurance", "startmasternode", &startmasternode, true, true, false},
+        {"insurance", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"insurance", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"insurance", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"insurance", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"insurance", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"insurance", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"insurance", "mnbudget", &mnbudget, true, true, false},
+        {"insurance", "preparebudget", &preparebudget, true, true, false},
+        {"insurance", "submitbudget", &submitbudget, true, true, false},
+        {"insurance", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"insurance", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"insurance", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"insurance", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"insurance", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"insurance", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"insurance", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"insurance", "checkbudgets", &checkbudgets, true, true, false},
+        {"insurance", "mnsync", &mnsync, true, true, false},
+        {"insurance", "spork", &spork, true, true, false},
 #ifdef ENABLE_WALLET
 
         /* Wallet */
@@ -1070,7 +1070,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> ensurance-cli " + methodname + " " + args + "\n";
+    return "> insurance-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

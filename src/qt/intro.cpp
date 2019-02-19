@@ -174,7 +174,7 @@ bool Intro::pickDataDirectory()
                 TryCreateDirectory(GUIUtil::qstringToBoostPath(dataDir));
                 break;
             } catch (fs::filesystem_error& e) {
-                QMessageBox::critical(0, tr("Ensurance Core"),
+                QMessageBox::critical(0, tr("Insurance Core"),
                     tr("Error: Specified data directory \"%1\" cannot be created.").arg(dataDir));
                 /* fall through, back to choosing screen */
             }
@@ -183,8 +183,8 @@ bool Intro::pickDataDirectory()
         settings.setValue("strDataDir", dataDir);
     }
     /* Only override -datadir if different from the default, to make it possible to
-     * override -datadir in the ensurance.conf file in the default data directory
-     * (to be consistent with ensuranced behavior)
+     * override -datadir in the insurance.conf file in the default data directory
+     * (to be consistent with insuranced behavior)
      */
     if (dataDir != getDefaultDataDirectory())
         SoftSetArg("-datadir", GUIUtil::qstringToBoostPath(dataDir).string()); // use OS locale for path setting

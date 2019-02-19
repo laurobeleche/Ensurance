@@ -125,7 +125,7 @@ background-color: #09D9B7;
         <string>&amp;New</string>
        </property>
        <property name="icon">
-        <iconset resource="../ensurance.qrc">
+        <iconset resource="../insurance.qrc">
          <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
        </property>
        <property name="autoDefault">
@@ -170,7 +170,7 @@ background-color: #09D9B7;
         <string>&amp;Copy</string>
        </property>
        <property name="icon">
-        <iconset resource="../ensurance.qrc">
+        <iconset resource="../insurance.qrc">
          <normaloff>:/icons/editcopy</normaloff>:/icons/editcopy</iconset>
        </property>
        <property name="autoDefault">
@@ -215,7 +215,7 @@ background-color: #09D9B7;
         <string>&amp;Delete</string>
        </property>
        <property name="icon">
-        <iconset resource="../ensurance.qrc">
+        <iconset resource="../insurance.qrc">
          <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
        </property>
        <property name="autoDefault">
@@ -273,7 +273,7 @@ background-color: #09D9B7;
         <string>&amp;Export</string>
        </property>
        <property name="icon">
-        <iconset resource="../ensurance.qrc">
+        <iconset resource="../insurance.qrc">
          <normaloff>:/icons/export</normaloff>:/icons/export</iconset>
        </property>
        <property name="autoDefault">
@@ -330,7 +330,7 @@ background-color: #09D9B7;
   </layout>
  </widget>
  <resources>
-  <include location="../ensurance.qrc"/>
+  <include location="../insurance.qrc"/>
  </resources>
  <connections/>
 </ui>

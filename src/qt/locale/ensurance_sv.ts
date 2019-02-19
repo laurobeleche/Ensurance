@@ -160,8 +160,8 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Ensurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
-        <translation>Ensurance kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina SECs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>Insurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
+        <translation>Insurance kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina SECs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Kärna</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Kärna</translation>
     </message>
     <message>
         <source>Send coins to a SEC address</source>
         <translation>Skicka mynt till en SEC adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ensurance: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och ensurance: URls)</translation>
+        <source>Request payments (generates QR codes and insurance: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och insurance: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,16 +603,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Ensurance Core</source>
-        <translation>Om Ensurance Kärnan</translation>
+        <source>&amp;About Insurance Core</source>
+        <translation>Om Insurance Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Ensurance Core</source>
-        <translation>Visa information om Ensurance Kärnan</translation>
+        <source>Show information about Insurance Core</source>
+        <translation>Visa information om Insurance Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Ensurance</source>
-        <translation>Ändra konfigurationsval för Ensurance</translation>
+        <source>Modify configuration options for Insurance</source>
+        <translation>Ändra konfigurationsval för Insurance</translation>
     </message>
     <message>
         <source>Sign messages with your SEC addresses to prove you own them</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Ensurance Core client</source>
-        <translation>Ensurance kärn klient</translation>
+        <source>Insurance Core client</source>
+        <translation>Insurance kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Kärna</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Kärna</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1170,8 +1170,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Kärna</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Kärna</translation>
     </message>
     </context>
 <context>
@@ -1354,7 +1354,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

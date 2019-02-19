@@ -1,5 +1,5 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2009-2019 The Bitcoin developers
 // Copyright (c) 2014-2019 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -48,7 +48,7 @@ static void noui_InitMessage(const std::string& message)
 
 void noui_connect()
 {
-    // Connect ensuranced signal handlers
+    // Connect insuranced signal handlers
     uiInterface.ThreadSafeMessageBox.connect(noui_ThreadSafeMessageBox);
     uiInterface.InitMessage.connect(noui_InitMessage);
 }

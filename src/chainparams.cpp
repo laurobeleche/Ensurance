@@ -1,8 +1,8 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2009-2019 The Bitcoin developers
 // Copyright (c) 2014-2019 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
-// Copyright (c) 2019 The Ensurance developers
+// Copyright (c) 2019 The Insurance developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -128,9 +128,9 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 90;      // Ensurance: 1 day
-        nTargetSpacing = 2 * 90;       // Ensurance: 2 minutes
-        nStakeMinAge = 24 * 60 * 60;   // Ensurance: 12 hours
+        nTargetTimespan = 1 * 90;      // Insurance: 1 day
+        nTargetSpacing = 2 * 90;       // Insurance: 2 minutes
+        nStakeMinAge = 24 * 60 * 60;   // Insurance: 12 hours
         nMaturity = 10;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 7000000 * COIN;
@@ -139,7 +139,7 @@ public:
         nLastPOWBlock = 1000;
         nModifierUpdateBlock = 1; // we use the version 2 for SEC
 
-        const char* pszTimestamp = "The Ensurance is the best for your money 19/02/2019 for your life";
+        const char* pszTimestamp = "The Insurance is the best for your money 19/02/2019 for your life";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -164,17 +164,17 @@ public:
         //vSeeds.push_back(CDNSSeedData("185.223.30.226", "185.223.30.226"));
 		//vSeeds.push_back(CDNSSeedData("207.148.11.38", "207.148.11.38"));
 
-        // Ensurance addresses start with 'C'
+        // Insurance addresses start with 'C'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 33);
-        // Ensurance script addresses start with '3'
+        // Insurance script addresses start with '3'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 10);
-        // Ensurance private keys start with 'K'
+        // Insurance private keys start with 'K'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 46);
-        // Ensurance BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // Insurance BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // Ensurance BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // Insurance BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        // Ensurance BIP44 coin type is '259' (0x80000103)
+        // Insurance BIP44 coin type is '259' (0x80000103)
         // BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x01)(0x03).convert_to_container<std::vector<unsigned char> >();
 
@@ -224,9 +224,9 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60;        // Ensurance: 1 day
-        nTargetSpacing = 2 * 60;         // Ensurance: 2 minutes
-        nStakeMinAge = 10 * 60;          // Ensurance: 10 minutes
+        nTargetTimespan = 1 * 60;        // Insurance: 1 day
+        nTargetSpacing = 2 * 60;         // Insurance: 2 minutes
+        nStakeMinAge = 10 * 60;          // Insurance: 10 minutes
         nLastPOWBlock = 200;
         nMaturity = 10;
         nMasternodeCountDrift = 4;
@@ -243,17 +243,17 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        // Testnet Ensurance addresses start with 'z'
+        // Testnet Insurance addresses start with 'z'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 142);
-        // Testnet Ensurance script addresses start with '5' or '6'
+        // Testnet Insurance script addresses start with '5' or '6'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 12);
         // Testnet private keys start with 'k'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 108);
-        // Testnet Ensurance BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet Insurance BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Ensurance BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet Insurance BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Testnet ensurance BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet insurance BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -299,9 +299,9 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Ensurance: 1 day
-        nTargetSpacing = 2 * 60;        // Ensurance: 2 minutes
-        nStakeMinAge = 10 * 60;          // Ensurance: 10 minutes
+        nTargetTimespan = 24 * 60 * 60; // Insurance: 1 day
+        nTargetSpacing = 2 * 60;        // Insurance: 2 minutes
+        nStakeMinAge = 10 * 60;          // Insurance: 10 minutes
         nLastPOWBlock = 200;
         nMaturity = 10;
         bnProofOfWorkLimit = ~uint256(0) >> 1;

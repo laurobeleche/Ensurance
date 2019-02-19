@@ -172,8 +172,8 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>Ensurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
-        <translation>Ensurance encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas SECs contra roubo por malware infectando seu computador.</translation>
+        <source>Insurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
+        <translation>Insurance encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas SECs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -861,14 +861,14 @@
     </message>
     </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all Ensurance specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionacilidades específicas da Ensurance (Masternodes, SwiftTX, Budgeting) (0-1, default %u)</translation>
+        <source>Disable all Insurance specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionacilidades específicas da Insurance (Masternodes, SwiftTX, Budgeting) (0-1, default %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -1215,8 +1215,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Ensurance Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o Ensurance Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart Insurance Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o Insurance Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

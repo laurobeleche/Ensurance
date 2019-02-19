@@ -3,7 +3,7 @@ Release Process
 
 Before every release candidate:
 
-* Update translations see [translation_process.md](https://github.com/EnsuranceFoundation/EnsuranceCoin/blob/master/doc/translation_process.md#synchronising-translations).
+* Update translations see [translation_process.md](https://github.com/InsuranceFoundation/InsuranceCoin/blob/master/doc/translation_process.md#synchronising-translations).
 
 Before every minor and major release:
 
@@ -24,12 +24,12 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/ensurance/gitian.sigs.git
-    git clone https://github.com/EnsuranceFoundation/EnsuranceCoin-detached-sigs.git
+    git clone https://github.com/insurance/gitian.sigs.git
+    git clone https://github.com/InsuranceFoundation/InsuranceCoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/EnsuranceFoundation/EnsuranceCoin.git
+    git clone https://github.com/InsuranceFoundation/InsuranceCoin.git
 
-### Ensurance maintainers/release engineers, suggestion for writing release notes
+### Insurance maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -50,7 +50,7 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./ensurance
+    pushd ./insurance
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -84,7 +84,7 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
-    make -C ../ensurance/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../insurance/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -92,55 +92,55 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url ensurance=/path/to/ensurance,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url insurance=/path/to/insurance,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Ensurance Core for Linux, Windows, and OS X:
+### Build and sign Insurance Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --memory 3000 --commit ensurance=v${VERSION} ../ensurance/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../ensurance/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/ensurance-*.tar.gz build/out/src/ensurance-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit insurance=v${VERSION} ../insurance/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../insurance/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/insurance-*.tar.gz build/out/src/insurance-*.tar.gz ../
 
-    ./bin/gbuild --memory 3000 --commit ensurance=v${VERSION} ../ensurance/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../ensurance/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/ensurance-*-win-unsigned.tar.gz inputs/ensurance-win-unsigned.tar.gz
-    mv build/out/ensurance-*.zip build/out/ensurance-*.exe ../
+    ./bin/gbuild --memory 3000 --commit insurance=v${VERSION} ../insurance/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../insurance/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/insurance-*-win-unsigned.tar.gz inputs/insurance-win-unsigned.tar.gz
+    mv build/out/insurance-*.zip build/out/insurance-*.exe ../
 
-    ./bin/gbuild --memory 3000 --commit ensurance=v${VERSION} ../ensurance/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../ensurance/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/ensurance-*-osx-unsigned.tar.gz inputs/ensurance-osx-unsigned.tar.gz
-    mv build/out/ensurance-*.tar.gz build/out/ensurance-*.dmg ../
+    ./bin/gbuild --memory 3000 --commit insurance=v${VERSION} ../insurance/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../insurance/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/insurance-*-osx-unsigned.tar.gz inputs/insurance-osx-unsigned.tar.gz
+    mv build/out/insurance-*.tar.gz build/out/insurance-*.dmg ../
 
-    ./bin/gbuild --memory 3000 --commit ensurance=v${VERSION} ../ensurance/contrib/gitian-descriptors/gitian-aarch64.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../ensurance/contrib/gitian-descriptors/gitian-aarch64.yml
-    mv build/out/ensurance-*.tar.gz build/out/src/ensurance-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit insurance=v${VERSION} ../insurance/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../insurance/contrib/gitian-descriptors/gitian-aarch64.yml
+    mv build/out/insurance-*.tar.gz build/out/src/insurance-*.tar.gz ../
     popd
 
 Build output expected:
 
-  1. source tarball (`ensurance-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`ensurance-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`ensurance-${VERSION}-win[32|64]-setup-unsigned.exe`, `ensurance-${VERSION}-win[32|64].zip`)
-  4. OS X unsigned installer and dist tarball (`ensurance-${VERSION}-osx-unsigned.dmg`, `ensurance-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`insurance-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`insurance-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`insurance-${VERSION}-win[32|64]-setup-unsigned.exe`, `insurance-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`insurance-${VERSION}-osx-unsigned.dmg`, `insurance-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
-    gpg --import ensurance/contrib/gitian-keys/*.pgp
+    gpg --import insurance/contrib/gitian-keys/*.pgp
     gpg --refresh-keys
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../ensurance/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../ensurance/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../ensurance/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../ensurance/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../insurance/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../insurance/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../insurance/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../insurance/contrib/gitian-descriptors/gitian-aarch64.yml
     popd
 
 ### Next steps:
@@ -162,22 +162,22 @@ Codesigner only: Create Windows/OS X detached signatures:
 
 Codesigner only: Sign the osx binary:
 
-    transfer ensurance-osx-unsigned.tar.gz to osx for signing
-    tar xf ensurance-osx-unsigned.tar.gz
+    transfer insurance-osx-unsigned.tar.gz to osx for signing
+    tar xf insurance-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf ensurance-win-unsigned.tar.gz
+    tar xf insurance-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/ensurance-detached-sigs
+    cd ~/insurance-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -190,25 +190,25 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [ensurance-detached-sigs](https://github.com/EnsuranceFoundation/EnsuranceCoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [insurance-detached-sigs](https://github.com/InsuranceFoundation/InsuranceCoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../ensurance/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../ensurance/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../ensurance/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/ensurance-osx-signed.dmg ../ensurance-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../insurance/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../insurance/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../insurance/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/insurance-osx-signed.dmg ../insurance-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../ensurance/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../ensurance/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../ensurance/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/ensurance-*win64-setup.exe ../ensurance-${VERSION}-win64-setup.exe
-    mv build/out/ensurance-*win32-setup.exe ../ensurance-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../insurance/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../insurance/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../insurance/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/insurance-*win64-setup.exe ../insurance-${VERSION}-win64-setup.exe
+    mv build/out/insurance-*win32-setup.exe ../insurance-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -230,23 +230,23 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-ensurance-${VERSION}-aarch64-linux-gnu.tar.gz
-ensurance-${VERSION}-arm-linux-gnueabihf.tar.gz
-ensurance-${VERSION}-i686-pc-linux-gnu.tar.gz
-ensurance-${VERSION}-x86_64-linux-gnu.tar.gz
-ensurance-${VERSION}-osx64.tar.gz
-ensurance-${VERSION}-osx.dmg
-ensurance-${VERSION}.tar.gz
-ensurance-${VERSION}-win32-setup.exe
-ensurance-${VERSION}-win32.zip
-ensurance-${VERSION}-win64-setup.exe
-ensurance-${VERSION}-win64.zip
+insurance-${VERSION}-aarch64-linux-gnu.tar.gz
+insurance-${VERSION}-arm-linux-gnueabihf.tar.gz
+insurance-${VERSION}-i686-pc-linux-gnu.tar.gz
+insurance-${VERSION}-x86_64-linux-gnu.tar.gz
+insurance-${VERSION}-osx64.tar.gz
+insurance-${VERSION}-osx.dmg
+insurance-${VERSION}.tar.gz
+insurance-${VERSION}-win32-setup.exe
+insurance-${VERSION}-win32.zip
+insurance-${VERSION}-win64-setup.exe
+insurance-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
 in debugging can run gitian to generate the files for themselves. To avoid
 end-user confusion about which file to pick, as well as save storage
-space *do not upload these to the ensurancecoin.io server*.
+space *do not upload these to the insurancecoin.io server*.
 
 - GPG-sign it, delete the unsigned file:
 ```
@@ -262,10 +262,10 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - bitcointalk announcement thread
 
-  - Optionally twitter, reddit /r/Ensurance, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/Insurance, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/EnsuranceFoundation/EnsuranceCoin/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/InsuranceFoundation/InsuranceCoin/releases/new) with a link to the archived release notes.
 
   - Celebrate

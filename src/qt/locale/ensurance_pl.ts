@@ -514,16 +514,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>&amp;Rdzeń Ensurance</translation>
+        <source>Insurance Core</source>
+        <translation>&amp;Rdzeń Insurance</translation>
     </message>
     <message>
         <source>Send coins to a SEC address</source>
         <translation>Wyślij monety do adresu SEC</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ensurance: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i ensurance:URI)</translation>
+        <source>Request payments (generates QR codes and insurance: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i insurance:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -534,16 +534,16 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Ensurance Core</source>
+        <source>&amp;About Insurance Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about Ensurance Core</source>
+        <source>Show information about Insurance Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for Ensurance</source>
-        <translation>Modyfikuj opcje konfiguracji Ensurance</translation>
+        <source>Modify configuration options for Insurance</source>
+        <translation>Modyfikuj opcje konfiguracji Insurance</translation>
     </message>
     <message>
         <source>Sign messages with your SEC addresses to prove you own them</source>
@@ -578,8 +578,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a ensurance: URI or payment request</source>
-        <translation>Otwórz ensurance: URI i żądanie zapłaty</translation>
+        <source>Open a insurance: URI or payment request</source>
+        <translation>Otwórz insurance: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -590,12 +590,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the Ensurance Core help message to get a list with possible Ensurance command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia Ensurance, aby dostać listę możliwych opcji Ensurance command-line</translation>
+        <source>Show the Insurance Core help message to get a list with possible Insurance command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia Insurance, aby dostać listę możliwych opcji Insurance command-line</translation>
     </message>
     <message>
-        <source>Ensurance Core client</source>
-        <translation>Rdzeń Ensurance klient</translation>
+        <source>Insurance Core client</source>
+        <translation>Rdzeń Insurance klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -904,8 +904,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>&amp;Rdzeń Ensurance</translation>
+        <source>Insurance Core</source>
+        <translation>&amp;Rdzeń Insurance</translation>
     </message>
     </context>
 <context>
@@ -919,8 +919,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>&amp;Rdzeń Ensurance</translation>
+        <source>Insurance Core</source>
+        <translation>&amp;Rdzeń Insurance</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1161,12 +1161,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start Ensurance after logging in to the system.</source>
-        <translation>Automatycznie uruchom Ensurance po zalogowaniu do systemu</translation>
+        <source>Automatically start Insurance after logging in to the system.</source>
+        <translation>Automatycznie uruchom Insurance po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start Ensurance on system login</source>
-        <translation>&amp;Uruchom Ensurance podczas logowania do systemu</translation>
+        <source>&amp;Start Insurance on system login</source>
+        <translation>&amp;Uruchom Insurance podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1185,12 +1185,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Ensurance.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Ensurance</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Insurance.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Insurance</translation>
     </message>
     <message>
-        <source>Connect to the Ensurance network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią Ensurance poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the Insurance network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią Insurance poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1835,8 +1835,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>&amp;Rdzeń Ensurance</translation>
+        <source>Insurance Core</source>
+        <translation>&amp;Rdzeń Insurance</translation>
     </message>
     </context>
 <context>
@@ -1927,7 +1927,7 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

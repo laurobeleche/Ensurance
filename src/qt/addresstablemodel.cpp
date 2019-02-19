@@ -305,7 +305,7 @@ void AddressTableModel::updateEntry(const QString& address,
     const QString& purpose,
     int status)
 {
-    // Update address book model from Ensurance Core
+    // Update address book model from Insurance Core
     priv->updateEntry(address, label, isMine, purpose, status);
 }
 

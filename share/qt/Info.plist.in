@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Pivx Core developers, 2017-@COPYRIGHT_YEAR@ The Ensurance Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Pivx Core developers, 2017-@COPYRIGHT_YEAR@ The Insurance Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Ensurance-Qt</string>
+  <string>Insurance-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.ensurancecoin.Ensurance-Qt</string>
+  <string>io.insurancecoin.Insurance-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.ensurancecoin.EnsurancePayment</string>
+      <string>io.insurancecoin.InsurancePayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>ensurance</string>
+        <string>insurance</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.ensurancecoin.paymentrequest</string>
+      <string>io.insurancecoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Ensurance payment request</string>
+      <string>Insurance payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-ensurance-payment-request</string>
+        <string>application/x-insurance-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>ensurancepaymentrequest</string>
+          <string>insurancepaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.ensurancecoin.paymentrequest</string>
+        <string>io.insurancecoin.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

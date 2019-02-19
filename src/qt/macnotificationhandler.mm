@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.ensurancecoin.Ensurance-Qt";
+        return @"io.insurancecoin.Insurance-Qt";
     } else {
         return [self __bundleIdentifier];
     }

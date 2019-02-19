@@ -30,13 +30,13 @@
        <item>
         <widget class="QCheckBox" name="bitcoinAtStartup">
          <property name="toolTip">
-          <string>Automatically start Ensurance after logging in to the system.</string>
+          <string>Automatically start Insurance after logging in to the system.</string>
          </property>
          <property name="styleSheet">
           <string notr="true">color:#fff;</string>
          </property>
          <property name="text">
-          <string>&amp;Start Ensurance on system login</string>
+          <string>&amp;Start Insurance on system login</string>
          </property>
         </widget>
        </item>
@@ -247,7 +247,7 @@
        <item>
         <widget class="QCheckBox" name="mapPortUpnp">
          <property name="toolTip">
-          <string>Automatically open the Ensurance client port on the router. This only works when your router supports UPnP and it is enabled.</string>
+          <string>Automatically open the Insurance client port on the router. This only works when your router supports UPnP and it is enabled.</string>
          </property>
          <property name="styleSheet">
           <string notr="true">color:#fff;</string>
@@ -273,7 +273,7 @@
        <item>
         <widget class="QCheckBox" name="connectSocks">
          <property name="toolTip">
-          <string>Connect to the Ensurance network through a SOCKS5 proxy.</string>
+          <string>Connect to the Insurance network through a SOCKS5 proxy.</string>
          </property>
          <property name="styleSheet">
           <string notr="true">color:#fff;</string>
@@ -457,7 +457,7 @@
          <item>
           <widget class="QValueComboBox" name="lang">
            <property name="toolTip">
-            <string>The user interface language can be set here. This setting will take effect after restarting Ensurance.</string>
+            <string>The user interface language can be set here. This setting will take effect after restarting Insurance.</string>
            </property>
           </widget>
          </item>

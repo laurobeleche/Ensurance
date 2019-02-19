@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build ensuranced (headless client) for OSX.
+This guide will show you how to build insuranced (headless client) for OSX.
 
 Notes
 -----
@@ -40,14 +40,14 @@ Instructions: Homebrew
 
         brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5 libzmq
 
-### Building `ensuranced`
+### Building `insuranced`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/EnsuranceFoundation/EnsuranceCoin.git
-        cd ensurance
+        git clone https://github.com/InsuranceFoundation/InsuranceCoin.git
+        cd insurance
 
-2.  Build ensuranced:
+2.  Build insuranced:
 
         ./autogen.sh
         ./configure --with-gui=qt5
@@ -57,7 +57,7 @@ Instructions: Homebrew
 
         make check
 
-4.  (Optional) You can also install ensuranced to your path:
+4.  (Optional) You can also install insuranced to your path:
 
         make install
 
@@ -69,7 +69,7 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 1. Make sure you installed everything through homebrew mentioned above
 2. Do a proper ./configure --with-gui=qt5 --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "ensurance-qt" as project name, enter src/qt as location
+4. Enter "insurance-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."
@@ -79,11 +79,11 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `ensuranced` for your own use.
+You can ignore this section if you are building `insuranced` for your own use.
 
-ensuranced/ensurance-cli binaries are not included in the Ensurance-Qt.app bundle.
+insuranced/insurance-cli binaries are not included in the Insurance-Qt.app bundle.
 
-If you are building `ensuranced` or `ensurance-qt` for others, your build machine should be set up
+If you are building `insuranced` or `insurance-qt` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -92,30 +92,30 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see release-process.md for how the Ensurance-Qt.app
+Once dependencies are compiled, see release-process.md for how the Insurance-Qt.app
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
 -------
 
-It's now available at `./ensuranced`, provided that you are still in the `src`
+It's now available at `./insuranced`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./ensuranced` to get the filename where it should be put, or just try these
+Run `./insuranced` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=ensurancerpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Ensurance/ensurance.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/Ensurance/ensurance.conf"
+    echo -e "rpcuser=insurancerpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Insurance/insurance.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Insurance/insurance.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/Ensurance/debug.log
+    tail -f $HOME/Library/Application\ Support/Insurance/debug.log
 
 Other commands:
 -------
 
-    ./ensuranced -daemon # to start the ensurance daemon.
-    ./ensurance-cli --help  # for a list of command-line options.
-    ./ensurance-cli help    # When the daemon is running, to get a list of RPC commands
+    ./insuranced -daemon # to start the insurance daemon.
+    ./insurance-cli --help  # for a list of command-line options.
+    ./insurance-cli help    # When the daemon is running, to get a list of RPC commands

@@ -67,9 +67,9 @@ UniValue mnbudget(const UniValue& params, bool fHelp)
             "\nAvailable commands:\n"
             "  prepare            - Prepare proposal for network by signing and creating tx\n"
             "  submit             - Submit proposal for network\n"
-            "  vote-many          - Vote on a Ensurance initiative\n"
-            "  vote-alias         - Vote on a Ensurance initiative\n"
-            "  vote               - Vote on a Ensurance initiative/budget\n"
+            "  vote-many          - Vote on a Insurance initiative\n"
+            "  vote-alias         - Vote on a Insurance initiative\n"
+            "  vote               - Vote on a Insurance initiative/budget\n"
             "  getvotes           - Show current masternode budgets\n"
             "  getinfo            - Show current masternode budgets\n"
             "  show               - Show all budgets\n"
@@ -159,7 +159,7 @@ UniValue preparebudget(const UniValue& params, bool fHelp)
 
     if (fHelp || params.size() != 6)
         throw runtime_error(
-            "preparebudget \"proposal-name\" \"url\" payment-count block-start \"ensurance-address\" monthy-payment\n"
+            "preparebudget \"proposal-name\" \"url\" payment-count block-start \"insurance-address\" monthy-payment\n"
             "\nPrepare proposal for network by signing and creating tx\n"
 
             "\nArguments:\n"
@@ -167,14 +167,14 @@ UniValue preparebudget(const UniValue& params, bool fHelp)
             "2. \"url\":            (string, required) URL of proposal details (64 character limit)\n"
             "3. payment-count:    (numeric, required) Total number of monthly payments\n"
             "4. block-start:      (numeric, required) Starting super block height\n"
-            "5. \"ensurance-address\":   (string, required) SEC address to send payments to\n"
+            "5. \"insurance-address\":   (string, required) SEC address to send payments to\n"
             "6. monthly-payment:  (numeric, required) Monthly payment amount\n"
 
             "\nResult:\n"
             "\"xxxx\"       (string) proposal fee hash (if successful) or error message (if failed)\n"
             "\nExamples:\n" +
-            HelpExampleCli("preparebudget", "\"test-proposal\" \"https://ensurancecoin.io/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500") +
-            HelpExampleRpc("preparebudget", "\"test-proposal\" \"https://ensurancecoin.io/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500"));
+            HelpExampleCli("preparebudget", "\"test-proposal\" \"https://insurancecoin.io/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500") +
+            HelpExampleRpc("preparebudget", "\"test-proposal\" \"https://insurancecoin.io/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500"));
 
     if (pwalletMain->IsLocked())
         throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passphrase with walletpassphrase first.");
@@ -252,7 +252,7 @@ UniValue submitbudget(const UniValue& params, bool fHelp)
 
     if (fHelp || params.size() != 7)
         throw runtime_error(
-            "submitbudget \"proposal-name\" \"url\" payment-count block-start \"ensurance-address\" monthy-payment \"fee-tx\"\n"
+            "submitbudget \"proposal-name\" \"url\" payment-count block-start \"insurance-address\" monthy-payment \"fee-tx\"\n"
             "\nSubmit proposal to the network\n"
 
             "\nArguments:\n"
@@ -260,15 +260,15 @@ UniValue submitbudget(const UniValue& params, bool fHelp)
             "2. \"url\":            (string, required) URL of proposal details (64 character limit)\n"
             "3. payment-count:    (numeric, required) Total number of monthly payments\n"
             "4. block-start:      (numeric, required) Starting super block height\n"
-            "5. \"ensurance-address\":   (string, required) SEC address to send payments to\n"
+            "5. \"insurance-address\":   (string, required) SEC address to send payments to\n"
             "6. monthly-payment:  (numeric, required) Monthly payment amount\n"
             "7. \"fee-tx\":         (string, required) Transaction hash from preparebudget command\n"
 
             "\nResult:\n"
             "\"xxxx\"       (string) proposal hash (if successful) or error message (if failed)\n"
             "\nExamples:\n" +
-            HelpExampleCli("submitbudget", "\"test-proposal\" \"https://ensurancecoin.io/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500") +
-            HelpExampleRpc("submitbudget", "\"test-proposal\" \"https://ensurancecoin.io/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500"));
+            HelpExampleCli("submitbudget", "\"test-proposal\" \"https://insurancecoin.io/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500") +
+            HelpExampleRpc("submitbudget", "\"test-proposal\" \"https://insurancecoin.io/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500"));
 
     // Check these inputs the same way we check the vote commands:
     // **********************************************************

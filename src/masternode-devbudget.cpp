@@ -1,4 +1,4 @@
-// Copyright (c) 2018 The Ensurance Foundation developers
+// Copyright (c) 2018 The Insurance Foundation developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 

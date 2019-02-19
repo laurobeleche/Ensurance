@@ -172,8 +172,8 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>Ensurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
-        <translation>Ensurance se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus SECs no sean robados mediante malware de su ordenador.</translation>
+        <source>Insurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
+        <translation>Insurance se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus SECs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -598,15 +598,15 @@
         <translation>Herramienta de pestañas</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Núcleo Ensurance</translation>
+        <source>Insurance Core</source>
+        <translation>Núcleo Insurance</translation>
     </message>
     <message>
         <source>Send coins to a SEC address</source>
         <translation>Enviar coins a una dirección SEC</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ensurance: URIs)</source>
+        <source>Request payments (generates QR codes and insurance: URIs)</source>
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
@@ -622,16 +622,16 @@
         <translation>Explorar nodos maestros</translation>
     </message>
     <message>
-        <source>&amp;About Ensurance Core</source>
-        <translation>&amp;Sobre el núcleo de Ensurance</translation>
+        <source>&amp;About Insurance Core</source>
+        <translation>&amp;Sobre el núcleo de Insurance</translation>
     </message>
     <message>
-        <source>Show information about Ensurance Core</source>
-        <translation>Mostrar información sobre el núcleo de Ensurance</translation>
+        <source>Show information about Insurance Core</source>
+        <translation>Mostrar información sobre el núcleo de Insurance</translation>
     </message>
     <message>
-        <source>Modify configuration options for Ensurance</source>
-        <translation>Modificar las opciones de configuración de Ensurance</translation>
+        <source>Modify configuration options for Insurance</source>
+        <translation>Modificar las opciones de configuración de Insurance</translation>
     </message>
     <message>
         <source>Sign messages with your SEC addresses to prove you own them</source>
@@ -670,8 +670,8 @@
         <translation>Abrir Fichero de Configuración de Nodos Maestros</translation>
     </message>
     <message>
-        <source>Open a ensurance: URI or payment request</source>
-        <translation>Abrir un ensurance: URI o solicitud de pago</translation>
+        <source>Open a insurance: URI or payment request</source>
+        <translation>Abrir un insurance: URI o solicitud de pago</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -682,12 +682,12 @@
         <translation>Ventana del explorador de bloques</translation>
     </message>
     <message>
-        <source>Show the Ensurance Core help message to get a list with possible Ensurance command-line options</source>
-        <translation>Mostrar la ayuda de Ensurance Core para obtener una lista de posibles opciones en línea de comandos</translation>
+        <source>Show the Insurance Core help message to get a list with possible Insurance command-line options</source>
+        <translation>Mostrar la ayuda de Insurance Core para obtener una lista de posibles opciones en línea de comandos</translation>
     </message>
     <message>
-        <source>Ensurance Core client</source>
-        <translation>Cliente Ensurance Core</translation>
+        <source>Insurance Core client</source>
+        <translation>Cliente Insurance Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -821,8 +821,8 @@ MultiEnvío: %1</translation>
         <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (ensurance.conf).</source>
-        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (ensurance.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (insurance.conf).</source>
+        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (insurance.conf).</translation>
     </message>
 </context>
 <context>
@@ -995,8 +995,8 @@ MultiEnvío: %1</translation>
         <translation>medio-alta</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uensurance per input.</source>
-        <translation>Puede variar +/- %1 uensurance por entrada.</translation>
+        <source>Can vary +/- %1 uinsurance per input.</source>
+        <translation>Puede variar +/- %1 uinsurance por entrada.</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1156,16 +1156,16 @@ MultiEnvío: %1</translation>
         <translation>versión</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Núcleo Ensurance</translation>
+        <source>Insurance Core</source>
+        <translation>Núcleo Insurance</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Ensurance Core</source>
-        <translation>Acerca de Ensurance Core</translation>
+        <source>About Insurance Core</source>
+        <translation>Acerca de Insurance Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1211,16 +1211,16 @@ MultiEnvío: %1</translation>
         <translation>Bienvenido/a</translation>
     </message>
     <message>
-        <source>Welcome to Ensurance Core.</source>
-        <translation>Bienvenido/a a Ensurance Core.</translation>
+        <source>Welcome to Insurance Core.</source>
+        <translation>Bienvenido/a a Insurance Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Ensurance Core will store its data.</source>
-        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará Ensurance Core sus datos.</translation>
+        <source>As this is the first time the program is launched, you can choose where Insurance Core will store its data.</source>
+        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará Insurance Core sus datos.</translation>
     </message>
     <message>
-        <source>Ensurance Core will download and store a copy of the Ensurance block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Ensurance Core descargará y guardará una copia de la cadena de bloques Ensurance. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
+        <source>Insurance Core will download and store a copy of the Insurance block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Insurance Core descargará y guardará una copia de la cadena de bloques Insurance. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1231,8 +1231,8 @@ MultiEnvío: %1</translation>
         <translation>Usar una carpeta de datos personalizada:</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Núcleo Ensurance</translation>
+        <source>Insurance Core</source>
+        <translation>Núcleo Insurance</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1551,8 +1551,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Si deselecciona el gasto de cambio no confirmado, las entradas de una transacción&lt;br/&gt;no podrán ser usadas hasta que esa transacción tenga al menos una confirmación.&lt;br/&gt;Esto también afecta a cómo se calcula su balance actual.</translation>
     </message>
     <message>
-        <source>Automatically open the Ensurance client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Ensurance en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
+        <source>Automatically open the Insurance client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Insurance en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1571,12 +1571,12 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically start Ensurance after logging in to the system.</source>
-        <translation>Arrancar Ensurance automáticamente después de identificarse en Windows.</translation>
+        <source>Automatically start Insurance after logging in to the system.</source>
+        <translation>Arrancar Insurance automáticamente después de identificarse en Windows.</translation>
     </message>
     <message>
-        <source>&amp;Start Ensurance on system login</source>
-        <translation>&amp;Arrancar Ensurance al inicio del sistema</translation>
+        <source>&amp;Start Insurance on system login</source>
+        <translation>&amp;Arrancar Insurance al inicio del sistema</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1603,16 +1603,16 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>&amp;Red</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Ensurance.</source>
-        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar Ensurance.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Insurance.</source>
+        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar Insurance.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Ensurance network through a SOCKS5 proxy.</source>
-        <translation>Conectar a la red Ensurance mediante un proxy SOCKS5.</translation>
+        <source>Connect to the Insurance network through a SOCKS5 proxy.</source>
+        <translation>Conectar a la red Insurance mediante un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1766,8 +1766,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Recompensa de participación o de nodo maestro que aún no ha madurado</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ensurance network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Ensurance después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Insurance network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Insurance después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1833,8 +1833,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start ensurance: click-to-pay handler</source>
-        <translation>No se puede iniciar ensurance: módulo click-to-pay</translation>
+        <source>Cannot start insurance: click-to-pay handler</source>
+        <translation>No se puede iniciar insurance: módulo click-to-pay</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid SEC address or malformed URI parameters.</source>
@@ -2057,8 +2057,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Cadena de bloques</translation>
     </message>
     <message>
-        <source>Open the Ensurance debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir el fichero de depuración Ensurance en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
+        <source>Open the Insurance debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir el fichero de depuración Insurance en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2225,8 +2225,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Fuera:</translation>
     </message>
     <message>
-        <source>Welcome to the Ensurance RPC console.</source>
-        <translation>Bienvenido a la consola RPC de Ensurance.</translation>
+        <source>Welcome to the Insurance RPC console.</source>
+        <translation>Bienvenido a la consola RPC de Insurance.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2296,12 +2296,12 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Una etiqueta opcional a asociar con la nueva dirección de recepción.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Ensurance network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red Ensurance.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Insurance network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red Insurance.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Ensurance network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red Ensurance.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Insurance network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red Insurance.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2577,8 +2577,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Si la comisión personalizada se fija en 1000 uSECs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uSECs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uSECs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Ensurance transactions than the network can process.</source>
-        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones Ensurance de las que la red puede procesar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Insurance transactions than the network can process.</source>
+        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones Insurance de las que la red puede procesar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2812,8 +2812,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>A message that was attached to the ensurance: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Ensurance network.</source>
-        <translation>Un mensaje adjunto al ensurance: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red Ensurance.</translation>
+        <source>A message that was attached to the insurance: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Insurance network.</source>
+        <translation>Un mensaje adjunto al insurance: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red Insurance.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2839,8 +2839,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Ensurance Core is shutting down...</source>
-        <translation>El programa Ensurance se está cerrando...</translation>
+        <source>Insurance Core is shutting down...</source>
+        <translation>El programa Insurance se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2989,8 +2989,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Núcleo Ensurance</translation>
+        <source>Insurance Core</source>
+        <translation>Núcleo Insurance</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3009,8 +3009,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Los desarrolladores de PIVX Core</translation>
     </message>
     <message>
-        <source>The Ensurance Core developers</source>
-        <translation>Los desarrolladores de Ensurance Core</translation>
+        <source>The Insurance Core developers</source>
+        <translation>Los desarrolladores de Insurance Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3541,7 +3541,7 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
 </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1= mantener los metadatos tx p.e. dueño de la cuenta e información de la solicitud de pago, 2 = ignorar metadatos tx)</translation>
@@ -3567,8 +3567,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Escuchar únicamente a la tarjeta de red indicada para conexiones JSON-RPC. Use la notación [host]:puerto para IPv6. Esta opción puede ser especificada varias veces (por defecto: escuchar en todas las tarjetas de red)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Ensurance Core is probably already running.</source>
-        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. Ensurance Core esta probablemente en ejecución.</translation>
+        <source>Cannot obtain a lock on data directory %s. Insurance Core is probably already running.</source>
+        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. Insurance Core esta probablemente en ejecución.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3587,8 +3587,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Borrar todas las transacciones del monedero y solo recuperar partes de la cadena de bloque a traves de -rescan al inicio.</translation>
     </message>
     <message>
-        <source>Disable all Ensurance specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar toda la funcionalidad especifica Ensurance (Masternodes, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
+        <source>Disable all Insurance specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar toda la funcionalidad especifica Insurance (Masternodes, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3723,32 +3723,32 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use ensuranced, or the -server option to ensurance-qt, you must set an rpcpassword in the configuration file:
+        <source>To use insuranced, or the -server option to insurance-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=ensurancerpc
+rpcuser=insurancerpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Ensurance Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Insurance Alert" admin@foo.com
 </source>
-        <translation>Para usar ensuranced, o la opción -server de ensurance-qt, debes definir un rpcpassword en el archivo de configuración:
+        <translation>Para usar insuranced, o la opción -server de insurance-qt, debes definir un rpcpassword en el archivo de configuración:
 %s
 Es recomendado que uses la siguiente contraseña aleatoria:
-rpcuser=ensurancerpc
+rpcuser=insurancerpc
 rpcrpcpassword=%s
 (No necesitas recordar esta contraseña)
 El nombre de usuario y contraseña NO DEBEN ser los mismos.
 Si el archivo no existe, crearlo con permisos de solo lectura para el propietario.
 También es recomendado definir alertnotify de manera que seas notificado de problemas;
-por ejemplo: alertnotify=echo %%s | mail -s "Ensurance Alert" admin@foo.com
+por ejemplo: alertnotify=echo %%s | mail -s "Insurance Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Ensurance Core is probably already running.</source>
-        <translation>Imposible conectar a %s en esta computadora. Es probable que Ensurance Core ya este corriendo.</translation>
+        <source>Unable to bind to %s on this computer. Insurance Core is probably already running.</source>
+        <translation>Imposible conectar a %s en esta computadora. Es probable que Insurance Core ya este corriendo.</translation>
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 10000 SEC.</source>
@@ -3767,8 +3767,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Ensurance Alert" admin@foo.com
         <translation>Advertencia: -paytxfee esta muy alta! Esta es la comisión de transacción que pagarás si envías una transacción.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Ensurance Core will not work properly.</source>
-        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora Ensurance Core no funcionará adecuadamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Insurance Core will not work properly.</source>
+        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora Insurance Core no funcionará adecuadamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3911,8 +3911,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Ensurance Alert" admin@foo.com
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Ensurance Core Developers</source>
-        <translation>Copyright (C) 2017-%i The Ensurance Core Developers</translation>
+        <source>Copyright (C) 2017-%i The Insurance Core Developers</source>
+        <translation>Copyright (C) 2017-%i The Insurance Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3983,8 +3983,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Ensurance Alert" admin@foo.com
         <translation>Error al cargar wallet.dat: Billetera dañada</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Ensurance Core</source>
-        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo Ensurance</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Insurance Core</source>
+        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo Insurance</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4087,8 +4087,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Ensurance Alert" admin@foo.com
         <translation>Información</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Ensurance Core is shutting down.</source>
-        <translation>La prueba de salud de inicialización ha fallado. Ensurance Core se cerrará.</translation>
+        <source>Initialization sanity check failed. Insurance Core is shutting down.</source>
+        <translation>La prueba de salud de inicialización ha fallado. Insurance Core se cerrará.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4659,8 +4659,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Ensurance Alert" admin@foo.com
         <translation>Monedero bloqueado.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Ensurance Core to complete</source>
-        <translation>Monedero necesita ser reescrito: reinicie Ensurance Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart Insurance Core to complete</source>
+        <translation>Monedero necesita ser reescrito: reinicie Insurance Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

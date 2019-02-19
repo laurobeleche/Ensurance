@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Ensurance</source>
-        <translation>Ensurance</translation>
+        <source>Insurance</source>
+        <translation>Insurance</translation>
     </message>
     <message>
-        <source>&amp;About Ensurance</source>
-        <translation>&amp;Sobre Ensurance</translation>
+        <source>&amp;About Insurance</source>
+        <translation>&amp;Sobre Insurance</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
-        <source>About Ensurance Core</source>
-        <translation>Sobre Ensurance Core</translation>
+        <source>About Insurance Core</source>
+        <translation>Sobre Insurance Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Ensurance Core.</source>
-        <translation>Benvingut a Ensurance Core.</translation>
+        <source>Welcome to Insurance Core.</source>
+        <translation>Benvingut a Insurance Core.</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1101,8 +1101,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1253,7 +1253,7 @@
     </message>
     </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

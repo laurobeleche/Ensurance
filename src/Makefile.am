@@ -72,15 +72,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += ensuranced
+  bin_PROGRAMS += insuranced
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += ensurance-cli ensurance-tx
+  bin_PROGRAMS += insurance-cli insurance-tx
 endif
 
 .PHONY: FORCE
-# ensurance core #
+# insurance core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -183,7 +183,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between ensuranced and ensurance-qt
+# server: shared between insuranced and insurance-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -228,7 +228,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between ensuranced and ensurance-qt, but only linked
+# wallet: shared between insuranced and insurance-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -291,7 +291,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_skein.h \
   crypto/sph_types.h
 
-# common: shared between ensuranced, and ensurance-qt and non-server tools
+# common: shared between insuranced, and insurance-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -349,7 +349,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between ensurance-cli and ensurance-qt
+# cli: shared between insurance-cli and insurance-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -359,7 +359,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-ensuranced_LDADD = \
+insuranced_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -370,26 +370,26 @@ ensuranced_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-ensuranced_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+insuranced_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-ensuranced_LDADD += libbitcoin_wallet.a
+insuranced_LDADD += libbitcoin_wallet.a
 endif
-ensuranced_SOURCES = ensuranced.cpp
+insuranced_SOURCES = insuranced.cpp
 #
 
 if TARGET_WINDOWS
-ensuranced_SOURCES += ensuranced-res.rc
+insuranced_SOURCES += insuranced-res.rc
 endif
 
-ensuranced_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-ensuranced_CPPFLAGS = $(BITCOIN_INCLUDES)
-ensuranced_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+insuranced_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+insuranced_CPPFLAGS = $(BITCOIN_INCLUDES)
+insuranced_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# ensurance-cli binary #
-ensurance_cli_LDADD = \
+# insurance-cli binary #
+insurance_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
@@ -398,14 +398,14 @@ ensurance_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-ensurance_cli_SOURCES = \
-  ensurance-cli.cpp
+insurance_cli_SOURCES = \
+  insurance-cli.cpp
 
-ensurance_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+insurance_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# ensurance-tx binary #
-ensurance_tx_LDADD = \
+# insurance-tx binary #
+insurance_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,15 +414,15 @@ ensurance_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-ensurance_tx_SOURCES = ensurance-tx.cpp
-ensurance_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+insurance_tx_SOURCES = insurance-tx.cpp
+insurance_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-ensurance_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+insurance_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-ensurance_cli_SOURCES += ensurance-cli-res.rc
+insurance_cli_SOURCES += insurance-cli-res.rc
 endif
-ensurance_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+insurance_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

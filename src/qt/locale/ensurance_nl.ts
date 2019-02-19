@@ -168,8 +168,8 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>Ensurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
-        <translation>Ensurance zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw SECs stelen.</translation>
+        <source>Insurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
+        <translation>Insurance zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw SECs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -590,16 +590,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Kern</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Kern</translation>
     </message>
     <message>
         <source>Send coins to a SEC address</source>
         <translation>Verstuur munten naar een SEC adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ensurance: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en ensurance: URI's)</translation>
+        <source>Request payments (generates QR codes and insurance: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en insurance: URI's)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,16 +610,16 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Ensurance Core</source>
-        <translation>&amp;Over Ensurance Kern</translation>
+        <source>&amp;About Insurance Core</source>
+        <translation>&amp;Over Insurance Kern</translation>
     </message>
     <message>
-        <source>Show information about Ensurance Core</source>
-        <translation>Toon informatie over Ensurance Kern</translation>
+        <source>Show information about Insurance Core</source>
+        <translation>Toon informatie over Insurance Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for Ensurance</source>
-        <translation>Wijzig Ensurance configuratie opties</translation>
+        <source>Modify configuration options for Insurance</source>
+        <translation>Wijzig Insurance configuratie opties</translation>
     </message>
     <message>
         <source>Sign messages with your SEC addresses to prove you own them</source>
@@ -658,8 +658,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a ensurance: URI or payment request</source>
-        <translation>Open een ensurance: URI of betaalverzoek</translation>
+        <source>Open a insurance: URI or payment request</source>
+        <translation>Open een insurance: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -670,12 +670,12 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>Ensurance Core client</source>
-        <translation>Ensurance Core client</translation>
+        <source>Insurance Core client</source>
+        <translation>Insurance Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Ensurance network</source>
-        <translation><numerusform>%n actieve verbinding(en) naar het Ensurance netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het Ensurance netwerk</numerusform></translation>
+        <source>%n active connection(s) to Insurance network</source>
+        <translation><numerusform>%n actieve verbinding(en) naar het Insurance netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het Insurance netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -817,8 +817,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (ensurance.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (ensurance.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (insurance.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (insurance.conf).</translation>
     </message>
 </context>
 <context>
@@ -1064,16 +1064,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Kern</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Kern</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Ensurance Core</source>
-        <translation>Over Ensurance Core</translation>
+        <source>About Insurance Core</source>
+        <translation>Over Insurance Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1103,16 +1103,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to Ensurance Core.</source>
-        <translation>Welkom bij Ensurance Core</translation>
+        <source>Welcome to Insurance Core.</source>
+        <translation>Welkom bij Insurance Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Gebruik de standaard datafolder </translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Kern</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Kern</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1309,20 +1309,20 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Ensurance after logging in to the system.</source>
-        <translation>Ensurance automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start Insurance after logging in to the system.</source>
+        <translation>Insurance automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start Ensurance on system login</source>
-        <translation>&amp;Ensurance starten bij systeemlogin</translation>
+        <source>&amp;Start Insurance on system login</source>
+        <translation>&amp;Insurance starten bij systeemlogin</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Ensurance.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Ensurance.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Insurance.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Insurance.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1675,8 +1675,8 @@ MultiSend: %1</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the Ensurance RPC console.</source>
-        <translation>Welkom bij de Ensurance RPC console.</translation>
+        <source>Welcome to the Insurance RPC console.</source>
+        <translation>Welkom bij de Insurance RPC console.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2081,8 +2081,8 @@ MultiSend: %1</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Ensurance Core is shutting down...</source>
-        <translation>Ensurance Core is aan het afsluiten...</translation>
+        <source>Insurance Core is shutting down...</source>
+        <translation>Insurance Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2211,8 +2211,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Kern</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2231,8 +2231,8 @@ MultiSend: %1</translation>
         <translation>De PIVX Core ontwikkelaars</translation>
     </message>
     <message>
-        <source>The Ensurance Core developers</source>
-        <translation>De Ensurance Core ontwikkelaars</translation>
+        <source>The Insurance Core developers</source>
+        <translation>De Insurance Core ontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2583,7 +2583,7 @@ MultiSend: %1</translation>
     </message>
 </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(standaard: %s)</translation>
@@ -2625,8 +2625,8 @@ MultiSend: %1</translation>
         <translation>Copyright (C) 2015-%i The PIVX Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Ensurance Core Developers</source>
-        <translation>Copyright (C) 2017-%i The Ensurance Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2017-%i The Insurance Core Developers</source>
+        <translation>Copyright (C) 2017-%i The Insurance Core Ontwikkelaars</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>

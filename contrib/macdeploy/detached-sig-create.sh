@@ -2,7 +2,7 @@
 set -e
 
 ROOTDIR=dist
-BUNDLE=${ROOTDIR}/Ensurance-Qt.app
+BUNDLE=${ROOTDIR}/Insurance-Qt.app
 CODESIGN=codesign
 TEMPDIR=sign.temp
 TEMPLIST=${TEMPDIR}/signatures.txt

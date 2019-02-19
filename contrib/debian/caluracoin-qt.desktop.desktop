@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Ensurance
-Comment=Ensurance P2P Cryptocurrency
-Exec=ensurance-qt %u
+Name=Insurance
+Comment=Insurance P2P Cryptocurrency
+Exec=insurance-qt %u
 Terminal=false
 Type=Application
-Icon=ensurance128
-MimeType=x-scheme-handler/ensurance;
+Icon=insurance128
+MimeType=x-scheme-handler/insurance;
 Categories=Office;Finance;
-Name[en_US]=ensurance-qt.desktop
+Name[en_US]=insurance-qt.desktop

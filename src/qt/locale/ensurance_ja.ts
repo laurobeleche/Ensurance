@@ -257,6 +257,6 @@
     </message>
     </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     </context>
 </TS>

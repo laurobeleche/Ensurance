@@ -1,12 +1,12 @@
-# bash programmable completion for ensuranced(1) and ensurance-cli(1)
+# bash programmable completion for insuranced(1) and insurance-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-have ensuranced && {
+have insuranced && {
 
-# call $ensuranced for RPC
-_ensurance_rpc() {
+# call $insuranced for RPC
+_insurance_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -16,23 +16,23 @@ _ensurance_rpc() {
                 ;;
         esac
     done
-    $ensuranced "${rpcargs[@]}" "$@"
+    $insuranced "${rpcargs[@]}" "$@"
 }
 
-# Add ensurance accounts to COMPREPLY
-_ensurance_accounts() {
+# Add insurance accounts to COMPREPLY
+_insurance_accounts() {
     local accounts
-    accounts=$(_ensurance_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
+    accounts=$(_insurance_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_ensuranced() {
+_insuranced() {
     local cur prev words=() cword
-    local ensuranced
+    local insuranced
 
-    # save and use original argument to invoke ensuranced
-    # ensuranced might not be in $PATH
-    ensuranced="$1"
+    # save and use original argument to invoke insuranced
+    # insuranced might not be in $PATH
+    insuranced="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -53,7 +53,7 @@ _ensuranced() {
     if ((cword > 3)); then
         case ${words[cword-3]} in
             addmultisigaddress)
-                _ensurance_accounts
+                _insurance_accounts
                 return 0
                 ;;
             getbalance|gettxout|importaddress|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
@@ -74,7 +74,7 @@ _ensuranced() {
                 return 0
                 ;;
             move|setaccount)
-                _ensurance_accounts
+                _insurance_accounts
                 return 0
                 ;;
         esac
@@ -90,7 +90,7 @@ _ensuranced() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _ensurance_accounts
+            _insurance_accounts
             return 0
             ;;
     esac
@@ -114,12 +114,12 @@ _ensuranced() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($ensuranced --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($insuranced --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_ensurance_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_insurance_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )
@@ -133,7 +133,7 @@ _ensuranced() {
     esac
 }
 
-complete -F _ensuranced ensuranced ensurance-cli
+complete -F _insuranced insuranced insurance-cli
 }
 
 # Local variables:

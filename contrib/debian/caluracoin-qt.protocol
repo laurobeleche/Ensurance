@@ -1,6 +1,6 @@
 [Protocol]
-exec=ensurance-qt '%u'
-protocol=ensurance
+exec=insurance-qt '%u'
+protocol=insurance
 input=none
 output=none
 helper=true

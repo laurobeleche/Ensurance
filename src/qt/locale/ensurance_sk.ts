@@ -172,8 +172,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Ensurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
-        <translation>Ensurance sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše SEC pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>Insurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
+        <translation>Insurance sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše SEC pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -594,16 +594,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
         <source>Send coins to a SEC address</source>
         <translation>Odoslať mince na adresu SEC</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ensurance: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a ensurance: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and insurance: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a insurance: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -614,16 +614,16 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About Ensurance Core</source>
-        <translation>O Ensurance Core</translation>
+        <source>&amp;About Insurance Core</source>
+        <translation>O Insurance Core</translation>
     </message>
     <message>
-        <source>Show information about Ensurance Core</source>
-        <translation>Zobraziť informácie o Ensurance Core</translation>
+        <source>Show information about Insurance Core</source>
+        <translation>Zobraziť informácie o Insurance Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Ensurance</source>
-        <translation>Zmeňte možnosti konfigurácie pre Ensurance</translation>
+        <source>Modify configuration options for Insurance</source>
+        <translation>Zmeňte možnosti konfigurácie pre Insurance</translation>
     </message>
     <message>
         <source>Sign messages with your SEC addresses to prove you own them</source>
@@ -662,8 +662,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a ensurance: URI or payment request</source>
-        <translation>Otvorte ensurance: URI alebo žiadosť o platbu</translation>
+        <source>Open a insurance: URI or payment request</source>
+        <translation>Otvorte insurance: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -674,12 +674,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the Ensurance Core help message to get a list with possible Ensurance command-line options</source>
-        <translation>Zobraziť pomocnú správu programu Ensurance Core a získajte zoznam možností príkazového riadka Ensurance</translation>
+        <source>Show the Insurance Core help message to get a list with possible Insurance command-line options</source>
+        <translation>Zobraziť pomocnú správu programu Insurance Core a získajte zoznam možností príkazového riadka Insurance</translation>
     </message>
     <message>
-        <source>Ensurance Core client</source>
-        <translation>Ensurance Core klient</translation>
+        <source>Insurance Core client</source>
+        <translation>Insurance Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -805,8 +805,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (ensurance.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (ensurance.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (insurance.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (insurance.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -900,15 +900,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1153,8 +1153,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Ensurance Core</source>
-        <translation>Ensurance Core</translation>
+        <source>Insurance Core</source>
+        <translation>Insurance Core</translation>
     </message>
     </context>
 <context>
@@ -1249,7 +1249,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

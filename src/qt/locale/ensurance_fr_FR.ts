@@ -152,8 +152,8 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>Ensurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
-        <translation>Ensurance va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos SECs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>Insurance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SECs from being stolen by malware infecting your computer.</source>
+        <translation>Insurance va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos SECs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -653,8 +653,8 @@ Adresse : %4
         <translation>Chercher</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (ensurance.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (ensurance.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (insurance.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (insurance.conf).</translation>
     </message>
 </context>
 <context>
@@ -1679,7 +1679,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>ensurance-core</name>
+    <name>insurance-core</name>
     <message>
         <source>Error</source>
         <translation>Erreur</translation>

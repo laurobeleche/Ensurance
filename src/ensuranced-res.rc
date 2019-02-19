@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Ensurance"
-            VALUE "FileDescription",    "ensuranced (OSS daemon/client for Ensurance)"
+            VALUE "CompanyName",        "Insurance"
+            VALUE "FileDescription",    "insuranced (OSS daemon/client for Insurance)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "ensuranced"
+            VALUE "InternalName",       "insuranced"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "ensuranced.exe"
-            VALUE "ProductName",        "ensuranced"
+            VALUE "OriginalFilename",   "insuranced.exe"
+            VALUE "ProductName",        "insuranced"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

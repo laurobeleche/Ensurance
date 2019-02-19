@@ -31,9 +31,9 @@ SendCoinsEntry::SendCoinsEntry(QWidget* parent) : QStackedWidget(parent),
     ui->addAsLabel->setPlaceholderText(tr("Enter a label for this address to add it to your address book"));
 #endif
 
-    // normal ensurance address field
+    // normal insurance address field
     GUIUtil::setupAddressWidget(ui->payTo, this);
-    // just a label for displaying ensurance address(es)
+    // just a label for displaying insurance address(es)
     ui->payTo_is->setFont(GUIUtil::bitcoinAddressFont());
 
     ui->payTo->setAttribute(Qt::WA_MacShowFocusRect, 0);

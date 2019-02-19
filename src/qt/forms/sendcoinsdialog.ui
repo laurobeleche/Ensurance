@@ -160,7 +160,7 @@
                  <number>-1</number>
                 </property>
                 <property name="text">
-                 <string>You may send money worldwide through a wallet-to-wallet transfer using your Ensurance account.</string>
+                 <string>You may send money worldwide through a wallet-to-wallet transfer using your Insurance account.</string>
                 </property>
                 <property name="textFormat">
                  <enum>Qt::RichText</enum>
@@ -1169,7 +1169,7 @@ background-color: #09D9B7;
                     <string>Add &amp;Recipient</string>
                    </property>
                    <property name="icon">
-                    <iconset resource="../ensurance.qrc">
+                    <iconset resource="../insurance.qrc">
                      <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
                    </property>
                    <property name="autoDefault">
@@ -1220,7 +1220,7 @@ background-color: #09D9B7;
                     <string>Clear &amp;All</string>
                    </property>
                    <property name="icon">
-                    <iconset resource="../ensurance.qrc">
+                    <iconset resource="../insurance.qrc">
                      <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
                    </property>
                    <property name="autoDefault">
@@ -1581,7 +1581,7 @@ background-color: #09D9B7;
                         <item>
                          <widget class="QCheckBox" name="checkBoxMinimumFee">
                           <property name="toolTip">
-                           <string>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Ensurance transactions than the network can process.</string>
+                           <string>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Insurance transactions than the network can process.</string>
                           </property>
                           <property name="text">
                            <string/>
@@ -1594,7 +1594,7 @@ background-color: #09D9B7;
                            <bool>true</bool>
                           </property>
                           <property name="toolTip">
-                           <string>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Ensurance transactions than the network can process.</string>
+                           <string>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Insurance transactions than the network can process.</string>
                           </property>
                           <property name="text">
                            <string>(read the tooltip)</string>
@@ -1997,7 +1997,7 @@ background-color: #09D9B7;
                   <string>S&amp;end</string>
                  </property>
                  <property name="icon">
-                  <iconset resource="../ensurance.qrc">
+                  <iconset resource="../insurance.qrc">
                    <normaloff>:/icons/send</normaloff>:/icons/send</iconset>
                  </property>
                  <property name="autoDefault">
@@ -2069,7 +2069,7 @@ background-color: #09D9B7;
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../ensurance.qrc"/>
+  <include location="../insurance.qrc"/>
  </resources>
  <connections/>
  <buttongroups>
