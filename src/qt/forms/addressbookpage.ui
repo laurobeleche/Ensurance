@@ -95,7 +95,7 @@
        </property>
        <property name="styleSheet">
         <string notr="true"> .QPushButton {
-  background-color: #08EEC3;
+  background-color: #07a1ee;
 	border: 0;
 	color:#333;
 	font-size:12px;
@@ -140,7 +140,7 @@ background-color: #09D9B7;
        </property>
        <property name="styleSheet">
         <string notr="true"> .QPushButton {
-  background-color: #08EEC3;
+  background-color: #07a1ee;
 	border: 0;
 	color:#333;
 	font-size:12px;
@@ -185,7 +185,7 @@ background-color: #09D9B7;
        </property>
        <property name="styleSheet">
         <string notr="true"> .QPushButton {
-  background-color: #08EEC3;
+  background-color: #07a1ee;
 	border: 0;
 	color:#333;
 	font-size:12px;
@@ -243,7 +243,7 @@ background-color: #09D9B7;
        </property>
        <property name="styleSheet">
         <string notr="true"> .QPushButton {
-  background-color: #08EEC3;
+  background-color: #07a1ee;
 	border: 0;
 	color:#333;
 	font-size:12px;
@@ -291,7 +291,7 @@ background-color: #09D9B7;
        </property>
        <property name="styleSheet">
         <string notr="true"> .QPushButton {
-  background-color: #08EEC3;
+  background-color: #07a1ee;
 	border: 0;
 	color:#333;
 	font-size:12px;

@@ -1198,8 +1198,8 @@ void BitcoinGUI::incomingTransaction(const QString& date, int unit, const CAmoun
 void BitcoinGUI::setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance,
                               const CAmount& watchOnlyBalance, const CAmount& watchUnconfBalance, const CAmount& watchImmatureBalance)
 {
-    labelBalance->setText("<span style='font-size:14px; color:#808080;'>" + tr("BALANCE") + "</span><br><br>" + "<span style='font-size:18px;'>" +
-        BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, balance - immatureBalance, false, BitcoinUnits::separatorNever));
+    //labelBalance->setText("<span style='font-size:14px; color:#808080;'>" + tr("BALANCE") + "</span><br><br>" + "<span style='font-size:18px;'>" +
+        //BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, balance - immatureBalance, false, BitcoinUnits::separatorNever));
 }
 #endif // ENABLE_WALLET
 

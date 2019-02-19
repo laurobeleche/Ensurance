@@ -61,9 +61,9 @@
         </size>
        </property>
        <property name="styleSheet">
-        <string notr="true">background:#1f2021</string>
+        <string notr="true"/>
        </property>
-       <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="0,0">
+       <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="0">
         <property name="leftMargin">
          <number>6</number>
         </property>
@@ -125,7 +125,7 @@
              </property>
              <item>
               <widget class="QFrame" name="frameCoinControl_BG">
-               <layout class="QVBoxLayout" name="verticalLayoutCoinControl" stretch="0,0,0,0,0,0,0">
+               <layout class="QVBoxLayout" name="verticalLayoutCoinControl" stretch="0,0,0,0,0,0,0,0">
                 <property name="spacing">
                  <number>0</number>
                 </property>
@@ -175,7 +175,7 @@
                    <widget class="QPushButton" name="pushButtonCoinControl">
                     <property name="styleSheet">
                      <string notr="true"> .QPushButton {
-  background-color: #08EEC3;
+  background-color: #07a1ee;
 	border: 0;
 	color:#333;
 	font-size:12px;
@@ -848,6 +848,66 @@ background-color: #09D9B7;
                   </property>
                  </widget>
                 </item>
+                <item>
+                 <widget class="QScrollArea" name="scrollArea">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>400</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="widgetResizable">
+                   <bool>true</bool>
+                  </property>
+                  <widget class="QWidget" name="scrollAreaWidgetContents">
+                   <property name="geometry">
+                    <rect>
+                     <x>0</x>
+                     <y>0</y>
+                     <width>981</width>
+                     <height>398</height>
+                    </rect>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,1">
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <layout class="QVBoxLayout" name="entries">
+                      <property name="spacing">
+                       <number>6</number>
+                      </property>
+                     </layout>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </widget>
+                 </widget>
+                </item>
                </layout>
               </widget>
              </item>
@@ -920,6 +980,144 @@ background-color: #09D9B7;
                <property name="bottomMargin">
                 <number>0</number>
                </property>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                 <property name="leftMargin">
+                  <number>24</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>8</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>7</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="addButton">
+                   <property name="toolTip">
+                    <string>Send to multiple recipients at once</string>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true"> .QPushButton {
+  background-color: #07a1ee;
+	border: 0;
+	color:#333;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:1px;
+	padding-bottom:1px;
+	height: 26px;
+	margin: 2px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+
+ .QPushButton:hover {
+background-color: #07BC9C;
+}
+
+ .QPushButton:pressed{
+background-color: #09D9B7;
+	border:1px solid #333333;
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Add &amp;Recipient</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="../insurance.qrc">
+                     <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
+                   </property>
+                   <property name="autoDefault">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="clearButton">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="toolTip">
+                    <string>Clear all fields of the form.</string>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true"> .QPushButton {
+  background-color: #07a1ee;
+	border: 0;
+	color:#333;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:1px;
+	padding-bottom:1px;
+	height: 26px;
+	margin: 2px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+
+ .QPushButton:hover {
+background-color: #07BC9C;
+}
+
+ .QPushButton:pressed{
+background-color: #09D9B7;
+	border:1px solid #333333;
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Clear &amp;All</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="../insurance.qrc">
+                     <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
+                   </property>
+                   <property name="autoDefault">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkSwiftTX">
+                   <property name="enabled">
+                    <bool>true</bool>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>85</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string>SwiftTX</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
               </layout>
              </item>
              <item>
@@ -1024,7 +1222,7 @@ background-color: #09D9B7;
                        </property>
                        <property name="styleSheet">
                         <string notr="true"> .QPushButton {
-  background-color: #08EEC3;
+  background-color: #07a1ee;
 	border: 0;
 	color:#333;
 	font-size:12px;
@@ -1628,7 +1826,7 @@ background-color: #09D9B7;
                  </property>
                  <property name="styleSheet">
                   <string notr="true"> .QPushButton {
-  background-color: #08EEC3;
+  background-color: #07a1ee;
 	border: 0;
 	color:#333;
 	font-size:12px;
@@ -1706,234 +1904,6 @@ background-color: #09D9B7;
              </item>
             </layout>
            </widget>
-          </item>
-         </layout>
-        </item>
-        <item>
-         <layout class="QVBoxLayout" name="verticalLayout_6">
-          <item>
-           <layout class="QVBoxLayout" name="verticalLayout">
-            <property name="leftMargin">
-             <number>0</number>
-            </property>
-            <property name="rightMargin">
-             <number>0</number>
-            </property>
-            <item>
-             <widget class="QLabel" name="label_2">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">color:#fff; font-size:30px; font-weight:bold;</string>
-              </property>
-              <property name="text">
-               <string>Recipients</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QScrollArea" name="scrollArea">
-              <property name="minimumSize">
-               <size>
-                <width>450</width>
-                <height>500</height>
-               </size>
-              </property>
-              <property name="styleSheet">
-               <string notr="true"/>
-              </property>
-              <property name="widgetResizable">
-               <bool>true</bool>
-              </property>
-              <widget class="QWidget" name="scrollAreaWidgetContents">
-               <property name="geometry">
-                <rect>
-                 <x>0</x>
-                 <y>0</y>
-                 <width>448</width>
-                 <height>534</height>
-                </rect>
-               </property>
-               <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,1,0">
-                <property name="leftMargin">
-                 <number>0</number>
-                </property>
-                <property name="topMargin">
-                 <number>0</number>
-                </property>
-                <property name="rightMargin">
-                 <number>0</number>
-                </property>
-                <property name="bottomMargin">
-                 <number>0</number>
-                </property>
-                <item>
-                 <layout class="QVBoxLayout" name="entries">
-                  <property name="spacing">
-                   <number>6</number>
-                  </property>
-                 </layout>
-                </item>
-                <item>
-                 <spacer name="verticalSpacer">
-                  <property name="orientation">
-                   <enum>Qt::Vertical</enum>
-                  </property>
-                  <property name="sizeHint" stdset="0">
-                   <size>
-                    <width>20</width>
-                    <height>40</height>
-                   </size>
-                  </property>
-                 </spacer>
-                </item>
-                <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_2">
-                  <property name="leftMargin">
-                   <number>24</number>
-                  </property>
-                  <property name="topMargin">
-                   <number>8</number>
-                  </property>
-                  <property name="bottomMargin">
-                   <number>7</number>
-                  </property>
-                  <item>
-                   <widget class="QPushButton" name="addButton">
-                    <property name="toolTip">
-                     <string>Send to multiple recipients at once</string>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true"> .QPushButton {
-  background-color: #08EEC3;
-	border: 0;
-	color:#333;
-	font-size:12px;
-	font-weight:bold;
-	padding-left:25px;
-	padding-right:25px;
-	padding-top:1px;
-	padding-bottom:1px;
-	height: 26px;
-	margin: 2px;
-	border-top-right-radius: 20px;
-	border-bottom-left-radius: 20px;
-}
-
-
- .QPushButton:hover {
-background-color: #07BC9C;
-}
-
- .QPushButton:pressed{
-background-color: #09D9B7;
-	border:1px solid #333333;
-}
-</string>
-                    </property>
-                    <property name="text">
-                     <string>Add &amp;Recipient</string>
-                    </property>
-                    <property name="icon">
-                     <iconset resource="../insurance.qrc">
-                      <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
-                    </property>
-                    <property name="autoDefault">
-                     <bool>false</bool>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QPushButton" name="clearButton">
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="toolTip">
-                     <string>Clear all fields of the form.</string>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true"> .QPushButton {
-  background-color: #08EEC3;
-	border: 0;
-	color:#333;
-	font-size:12px;
-	font-weight:bold;
-	padding-left:25px;
-	padding-right:25px;
-	padding-top:1px;
-	padding-bottom:1px;
-	height: 26px;
-	margin: 2px;
-	border-top-right-radius: 20px;
-	border-bottom-left-radius: 20px;
-}
-
-
- .QPushButton:hover {
-background-color: #07BC9C;
-}
-
- .QPushButton:pressed{
-background-color: #09D9B7;
-	border:1px solid #333333;
-}
-</string>
-                    </property>
-                    <property name="text">
-                     <string>Clear &amp;All</string>
-                    </property>
-                    <property name="icon">
-                     <iconset resource="../insurance.qrc">
-                      <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
-                    </property>
-                    <property name="autoDefault">
-                     <bool>false</bool>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <spacer name="horizontalSpacer">
-                    <property name="orientation">
-                     <enum>Qt::Horizontal</enum>
-                    </property>
-                    <property name="sizeHint" stdset="0">
-                     <size>
-                      <width>40</width>
-                      <height>20</height>
-                     </size>
-                    </property>
-                   </spacer>
-                  </item>
-                  <item>
-                   <widget class="QCheckBox" name="checkSwiftTX">
-                    <property name="enabled">
-                     <bool>true</bool>
-                    </property>
-                    <property name="minimumSize">
-                     <size>
-                      <width>85</width>
-                      <height>0</height>
-                     </size>
-                    </property>
-                    <property name="text">
-                     <string>SwiftTX</string>
-                    </property>
-                   </widget>
-                  </item>
-                 </layout>
-                </item>
-               </layout>
-              </widget>
-             </widget>
-            </item>
-           </layout>
           </item>
          </layout>
         </item>
