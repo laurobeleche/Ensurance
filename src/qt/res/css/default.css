@@ -74,7 +74,7 @@ QMenu::item {
 
 QMenu::item:selected {
 	background-color:#9e9e9e;
-	color:#07a1ee;
+	color:#001e3d;
 }
 
 QToolBar {
@@ -1278,6 +1278,10 @@ QDialog#SendCoinsDialog QLabel#labelBalance {
 
 /**************************** SEND COINS ENTRY ******************************************/
 
+QStackedWidget#SendCoinsEntry {
+	background-color:transparent;
+}
+
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins > .QLabel { /* Send Coin Entry Labels */
 	min-width:10px;
 	font-weight:bold;
@@ -1530,6 +1534,10 @@ QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
 /**************************** MASTERNODE LIST *******************************************/
 
 QWidget#MasternodeList {
+	background-color: transparent;
+}
+
+QWidget#MasternodeList .QTableWidget#tableWidgetMyMasternodes{
 	background-color: transparent;
 }
 
