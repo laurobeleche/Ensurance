@@ -242,7 +242,7 @@ void CAlert::Notify(const std::string& strMessage, bool fThread)
     // be safe we first strip anything not in safeChars, then add single quotes around
     // the whole string before passing it to the shell:
     std::string singleQuote("'");
-    std::string safeStatus = SanitizeStrancering(strMessage);
+    std::string safeStatus = SanitizeString(strMessage);
     safeStatus = singleQuote + safeStatus + singleQuote;
     boost::replace_all(strCmd, "%s", safeStatus);
 
