@@ -118,7 +118,7 @@ public:
         pchMessageStart[1] = 0x19;
         pchMessageStart[2] = 0xfe;
         pchMessageStart[3] = 0xa8;
-        vAlertPubKey = ParseHex("04a9229fe350aa42d2d0d93ad3f04a3022b521a8226a40ad9ca0c717b2d692eea41d48215ea0e9442b271afe0ba6dccbfeb5d61cc33858655de0f1c0874688a97c");
+        vAlertPubKey = ParseHex("02009d608b4085201d7b4647049c6ec52613367bad1b8e39d1632ffa6d57ead8ee");
         nDefaultPort = 22150;
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         bnProofOfStakeLimit = ~uint256(0) >> 24;
@@ -130,7 +130,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 90;      // Insurance: 1 day
         nTargetSpacing = 2 * 90;       // Insurance: 2 minutes
-        nStakeMinAge = 24 * 60 * 60;   // Insurance: 12 hours
+        nStakeMinAge = 24 * 60 * 60;   // Insurance: 24 hours
         nMaturity = 10;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 7000000 * COIN;
@@ -197,8 +197,8 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "04c882cfac6d68edccc3a9a7eb153b6b87400b833fd4ad33340b97dfe0f2997dfa0042656c40a5eb41001544eff5e36508d71503b345fe8a08c2c5405aa7ce78e9";
-        strMasternodePoolDummyAddress = "GSJVWUkt6HtSCY2SaJ2akeyJUg8bg1hW3S";
+        strSporkKey = "02009d608b4085201d7b4647049c6ec52613367bad1b8e39d1632ffa6d57ead8ee";
+        strMasternodePoolDummyAddress = "ScvD2T53bhMGBtgN34UgT93Jh3eDHz8fFd";
         nStartMasternodePayments = genesis.nTime + 43200; // 12 hours after genesis creation
 
         nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
