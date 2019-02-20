@@ -54,7 +54,7 @@ QMenuBar {
 
 QMenuBar::item {
 	background-color: transparent;
-	color:#0d0e0f;
+	color:#fff;
 
 }
 
@@ -94,7 +94,7 @@ QToolBar > QToolButton {
 	margin: 0;
 	font-weight: bold;
 	font-size: 13px;
-	color: #0d0e0f;
+	color: #a4d0fc;
 	border-left: 5px solid #000;
 }
 
@@ -1241,7 +1241,7 @@ QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLabel#labelCoinControlChangeL
 }
 
 QDialog#SendCoinsDialog .QFrame#frameFee { /* Coin Control Section */
-	background-color:#1F2021;
+	
 }
 
 QDialog#SendCoinsDialog .QFrame#frame_Send { /* Coin Control Section */
@@ -1249,7 +1249,7 @@ QDialog#SendCoinsDialog .QFrame#frame_Send { /* Coin Control Section */
 }
 
 QDialog#SendCoinsDialog .QScrollArea#scrollArea .QWidget#scrollAreaWidgetContents { /* Send To Widget */
-	background-color:#1F2021;
+	
 }
 
 QDialog#SendCoinsDialog .QCheckBox#checkSwiftTX { /* SwiftTX Checkbox */
@@ -1461,7 +1461,7 @@ QWidget#ReceiveCoinsDialog {
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#framePayment {
-	background-color:#1F2021;
+	
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#framePayment  > .QLabel { /* Receive Coin Labels */

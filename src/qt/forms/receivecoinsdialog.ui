@@ -773,7 +773,7 @@ background-color: #09D9B7;
               <enum>Qt::CustomContextMenu</enum>
              </property>
              <property name="styleSheet">
-              <string notr="true"/>
+              <string notr="true">background-color:transparent;</string>
              </property>
              <property name="frameShape">
               <enum>QFrame::NoFrame</enum>
