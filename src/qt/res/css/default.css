@@ -217,7 +217,7 @@ QLabel { /* Base Text Size & Color */
 
 .QCheckBox::indicator:hover {
 
-    background: #00725d;
+    background: #004f72;
 
 }
 
@@ -229,7 +229,7 @@ QLabel { /* Base Text Size & Color */
 
 .QCheckBox::indicator:checked:hover {
 
-    background: #00725d;
+    background: #004f72;
 
 }
 
@@ -721,7 +721,7 @@ QDialog .QTabWidget::pane {
 }
 
 QDialog .QTabWidget QTabBar::tab {
-	background-color:#00725d;
+	background-color:#004f72;
 	color:#333;
 	padding-left:10px;
 	padding-right:10px;
@@ -1281,7 +1281,9 @@ QDialog#SendCoinsDialog QLabel#labelBalance {
 QStackedWidget#SendCoinsEntry {
 	background-color:transparent;
 }
-
+QStackedWidget#SendCoinsEntry .QFrame#SendCoins {
+	background-color:transparent;
+}
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins > .QLabel { /* Send Coin Entry Labels */
 	min-width:10px;
 	font-weight:bold;

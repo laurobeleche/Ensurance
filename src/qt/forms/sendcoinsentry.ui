@@ -25,6 +25,9 @@
   <property name="lineWidth">
    <number>1</number>
   </property>
+  <property name="currentIndex">
+   <number>2</number>
+  </property>
   <widget class="QFrame" name="SendCoins">
    <property name="toolTip">
     <string>This is a normal payment.</string>
