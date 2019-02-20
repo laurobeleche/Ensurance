@@ -7,7 +7,7 @@ Insurance (SEC) is a sustainable cryptocurrency modeled after Satoshi Nakamotoâ€
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftTX_.
 - Decentralized blockchain voting providing for consensus based advancement of the current Masternode
   technology used to secure the network and provide the above features, each Masternode is secured
-  with a collateral of 50,000 SEC.
+  with a collateral of 1,000 SEC.
 
 More information at [insurancecoin.com.br](http://www.insurancecoin.com.br)
 
@@ -23,4 +23,4 @@ More information at [insurancecoin.com.br](http://www.insurancecoin.com.br)
 
 | **Block Height**  | **Reward** | **Masternodes**  | **PoS**          |
 |-------------------|------------|------------------|------------------|
-| 2-5000            | 1 SEC      | 90% (0.9 SEC)    | 10% (0.1 SEC)    |
+| 2-....          | 1 SEC      | 90% (0.9 SEC)    | 10% (0.1 SEC)    |

@@ -530,7 +530,7 @@ QHeaderView::section:last {
 }
 
 .QTableView { /* Table - has to be selected as a class otherwise it throws off QCalendarWidget */
-	background: #1f2021;
+	background: transparent;
 
 }
 
