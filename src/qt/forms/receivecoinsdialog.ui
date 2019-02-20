@@ -18,8 +18,8 @@
   </property>
   <property name="maximumSize">
    <size>
-    <width>1300</width>
-    <height>820</height>
+    <width>16777215</width>
+    <height>16777215</height>
    </size>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout_5">
@@ -85,7 +85,7 @@
            </size>
           </property>
           <property name="styleSheet">
-           <string notr="true">background:#1f2021;</string>
+           <string notr="true"/>
           </property>
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
@@ -561,7 +561,7 @@
 
 
  .QPushButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QPushButton:pressed{
@@ -628,7 +628,7 @@ background-color: #09D9B7;
 
 
  .QPushButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QPushButton:pressed{
@@ -725,7 +725,7 @@ background-color: #09D9B7;
            </size>
           </property>
           <property name="styleSheet">
-           <string notr="true">background:#1f2021;</string>
+           <string notr="true"/>
           </property>
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
@@ -860,7 +860,7 @@ background-color: #09D9B7;
 
 
  .QPushButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QPushButton:pressed{
@@ -908,7 +908,7 @@ background-color: #09D9B7;
 
 
  .QPushButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QPushButton:pressed{

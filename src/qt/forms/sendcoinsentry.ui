@@ -85,7 +85,7 @@
 
 
  .QToolButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QToolButton:pressed{
@@ -130,7 +130,7 @@ background-color: #09D9B7;
 
 
  .QToolButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QToolButton:pressed{
@@ -175,7 +175,7 @@ background-color: #09D9B7;
 
 
  .QToolButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QToolButton:pressed{

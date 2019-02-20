@@ -153,7 +153,7 @@ QFrame &gt; QLabel{background-color:#f2f0f0;}</string>
 
 
  .QPushButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QPushButton:pressed{
@@ -268,7 +268,7 @@ background-color: #09D9B7;
 
 
  .QPushButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QPushButton:pressed{
@@ -379,7 +379,7 @@ Please be patient after clicking import.</string>
 
 
  .QPushButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QPushButton:pressed{
@@ -466,7 +466,7 @@ background-color: #09D9B7;
 
 
  .QPushButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QPushButton:pressed{
@@ -561,7 +561,7 @@ background-color: #09D9B7;
 
 
  .QPushButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QPushButton:pressed{
@@ -665,7 +665,7 @@ background-color: #09D9B7;
 
 
  .QPushButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QPushButton:pressed{
@@ -777,7 +777,7 @@ background-color: #09D9B7;
 
 
  .QPushButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QPushButton:pressed{
@@ -941,7 +941,7 @@ txScrollArea:{
 
 
  .QPushButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QPushButton:pressed{
@@ -1001,7 +1001,7 @@ background-color: #09D9B7;
 
 
  .QPushButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QPushButton:pressed{
@@ -1054,7 +1054,7 @@ background-color: #09D9B7;
 
 
  .QPushButton:hover {
-background-color: #07BC9C;
+background-color: #078bbc;
 }
 
  .QPushButton:pressed{
