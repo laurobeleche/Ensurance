@@ -7,7 +7,7 @@
 /*                                                                                      */
 /* medium1:     #078bbc (on hover)                                                      */
 /* medium1:     #07a1ee (main color for dark backgrounds)                               */
-/* medium2:     #09D9B7 (sligtly darker for gradients)                                  */
+/* medium2:     #094ed9 (sligtly darker for gradients)                                  */
 /*                                                                                      */
 /* background:         #f8f6f6                                                          */
 /* input fields:       #e7e7e7                                                          */
@@ -325,7 +325,7 @@ background-color: #078bbc;
 }
 
 QPushButton:pressed{
-background-color: #09D9B7;
+background-color: #094ed9;
 	border:1px solid #333333;
 }
 
@@ -353,7 +353,7 @@ background-color: #078bbc;
 }
 
 QPushButton#addressDeleteButton:pressed{
-background-color: #09D9B7;
+background-color: #094ed9;
 	border:1px solid #333333;
 }
 
@@ -842,7 +842,7 @@ background-color: #078bbc;
 }
 
 QDialog#MultisigDialog  QFrame#addressFrame .QPushButton:pressed{
-background-color: #09D9B7;
+background-color: #094ed9;
 	border:1px solid #333333;
 }
 
@@ -874,7 +874,7 @@ background-color: #078bbc;
 }
 
 QDialog#MultisigDialog  QFrame#addressFrame .QPushButton:pressed{
-background-color: #09D9B7;
+background-color: #094ed9;
 	border:1px solid #333333;
 }
 
@@ -906,7 +906,7 @@ background-color: #078bbc;
 }
 
 QDialog#MultisigDialog  QFrame#txInputFrame .QPushButton:pressed{
-background-color: #09D9B7;
+background-color: #094ed9;
 	border:1px solid #333333;
 }
 
@@ -921,7 +921,7 @@ background-color: #078bbc;
 }
 
 QDialog#MultisigDialog  QFrame#destinationFrame .QPushButton:pressed{
-background-color: #09D9B7;
+background-color: #094ed9;
 	border:1px solid #333333;
 }
 
@@ -1498,7 +1498,7 @@ QDialog#ReceiveRequestDialog QTextEdit { /* Contents of Receive Coin Dialog */
 /**************************** TRANSACTIONS PAGE *****************************************/
 
 TransactionView {
-	background-color:#000;
+	background-color:transparent;
 }
 
 TransactionView QLineEdit { /* Address Filter */
@@ -1514,7 +1514,7 @@ TransactionView QComboBox {
 }
 
 TransactionView QTableView {
-
+	background-color:transparent;
 }
 
 

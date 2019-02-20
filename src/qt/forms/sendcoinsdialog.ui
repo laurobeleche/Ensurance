@@ -196,7 +196,7 @@ background-color: #078bbc;
 }
 
  .QPushButton:pressed{
-background-color: #09D9B7;
+background-color: #094ed9;
 	border:1px solid #333333;
 }
 </string>
@@ -1019,7 +1019,7 @@ background-color: #078bbc;
 }
 
  .QPushButton:pressed{
-background-color: #09D9B7;
+background-color: #094ed9;
 	border:1px solid #333333;
 }
 </string>
@@ -1070,7 +1070,7 @@ background-color: #078bbc;
 }
 
  .QPushButton:pressed{
-background-color: #09D9B7;
+background-color: #094ed9;
 	border:1px solid #333333;
 }
 </string>
@@ -1243,7 +1243,7 @@ background-color: #078bbc;
 }
 
  .QPushButton:pressed{
-background-color: #09D9B7;
+background-color: #094ed9;
 	border:1px solid #333333;
 }
 </string>
@@ -1853,7 +1853,7 @@ background-color: #078bbc;
 }
 
  .QPushButton:pressed{
-background-color: #09D9B7;
+background-color: #094ed9;
 	border:1px solid #333333;
 }
 </string>

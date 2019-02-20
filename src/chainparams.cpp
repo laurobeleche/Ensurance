@@ -172,7 +172,7 @@ public:
 		//vSeeds.push_back(CDNSSeedData("207.148.11.38", "207.148.11.38"));
 
         // Insurance addresses start with 'I'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 42);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 43);
         // Insurance script addresses start with '3'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 10);
         // Insurance private keys start with 'K'
