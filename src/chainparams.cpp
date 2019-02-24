@@ -53,7 +53,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x000001a15e30729b914b58a50ca8b1d4dc8a0183e08496789214527b69729cbb"));
+    (0, uint256("0x"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -80,28 +80,6 @@ static const Checkpoints::CCheckpointData dataRegtest = {
     0,
     100};
 
-void MineGenesis(CBlock genesis, uint256 bnProofOfWorkLimit) {
-    printf("Mining genesis block...\n");
-
-	uint256 bnTarget;
-    bool fNegative;
-    bool fOverflow;
-	
-	bnTarget.SetCompact(genesis.nBits, &fNegative, &fOverflow);
-    //for (genesis.nNonce == 0; genesis.GetHash() > bnProofOfWorkLimit; genesis.nNonce++) { } 
-	if(genesis.nNonce == 0){
-		while (genesis.GetHash() > bnTarget){
-			genesis.nNonce++;
-		}
-	}
-
-    printf("Mined genesis block:\n");
-    printf("Merkle root: %s\n", genesis.hashMerkleRoot.ToString().c_str());
-    printf("Nonce: %u\n", genesis.nNonce);
-	printf("Bits: %u\n", genesis.nBits);
-    printf("Hash: %s\n", genesis.GetHash().ToString().c_str());
-	printf("POW: %s\n", bnTarget.ToString().c_str());
-}
 class CMainParams : public CChainParams
 {
 public:
@@ -139,14 +117,7 @@ public:
         nLastPOWBlock = 1000;
         nModifierUpdateBlock = 1; // we use the version 2 for SEC
 
-		/**
 		
-		Merkle root: 79cb9efb49e4f71e6b6b8ba3c817549e45f56192d15ce1d5a691cf0e5f5869f3
-		Nonce: 170208
-		Bits: 504365040
-		Hash: 000001a15e30729b914b58a50ca8b1d4dc8a0183e08496789214527b69729cbb
-
-		**/
 		
         const char* pszTimestamp = "The Insurance is the best for your money 19/02/2019 for your life";
         CMutableTransaction txNew;
@@ -161,13 +132,12 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1551024293;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 170208;
+        genesis.nNonce = 0;
 		
-		//MineGenesis(genesis, bnProofOfWorkLimit);
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000001a15e30729b914b58a50ca8b1d4dc8a0183e08496789214527b69729cbb"));
-        assert(genesis.hashMerkleRoot == uint256("0x79cb9efb49e4f71e6b6b8ba3c817549e45f56192d15ce1d5a691cf0e5f5869f3"));
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 
         // DNS Seeding
         vSeeds.push_back(CDNSSeedData("207.148.7.125", "207.148.7.125"));
