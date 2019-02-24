@@ -168,9 +168,11 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x79cb9efb49e4f71e6b6b8ba3c817549e45f56192d15ce1d5a691cf0e5f5869f3"));
 
         // DNS Seeding
-        //vSeeds.push_back(CDNSSeedData("185.223.30.226", "185.223.30.226"));
-		//vSeeds.push_back(CDNSSeedData("207.148.11.38", "207.148.11.38"));
-
+        vSeeds.push_back(CDNSSeedData("207.148.7.125", "207.148.7.125"));
+		vSeeds.push_back(CDNSSeedData("45.32.192.128", "45.32.192.128"));
+		vSeeds.push_back(CDNSSeedData("45.76.234.227", "45.76.234.227"));
+		vSeeds.push_back(CDNSSeedData("107.191.44.109", "107.191.44.109"));
+		
         // Insurance addresses start with 'I'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
         // Insurance script addresses start with '3'
