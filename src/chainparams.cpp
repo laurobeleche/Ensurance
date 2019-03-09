@@ -53,7 +53,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x"));
+    (0, uint256("0x000001a15e30729b914b58a50ca8b1d4dc8a0183e08496789214527b69729cbb"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -114,10 +114,17 @@ public:
         nMaxMoneyOut = 7000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 1000;
+        nLastPOWBlock = 1500;
         nModifierUpdateBlock = 1; // we use the version 2 for SEC
 
+		/**
 		
+		Merkle root: 79cb9efb49e4f71e6b6b8ba3c817549e45f56192d15ce1d5a691cf0e5f5869f3
+		Nonce: 170208
+		Bits: 504365040
+		Hash: 000001a15e30729b914b58a50ca8b1d4dc8a0183e08496789214527b69729cbb
+
+		**/
 		
         const char* pszTimestamp = "The Insurance is the best for your money 19/02/2019 for your life";
         CMutableTransaction txNew;
@@ -132,12 +139,12 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1551024293;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 0;
+        genesis.nNonce = 170208;
 		
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x000001a15e30729b914b58a50ca8b1d4dc8a0183e08496789214527b69729cbb"));
+        assert(genesis.hashMerkleRoot == uint256("0x79cb9efb49e4f71e6b6b8ba3c817549e45f56192d15ce1d5a691cf0e5f5869f3"));
 
         // DNS Seeding
         vSeeds.push_back(CDNSSeedData("207.148.7.125", "207.148.7.125"));
