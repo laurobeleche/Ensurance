@@ -79,7 +79,28 @@ static const Checkpoints::CCheckpointData dataRegtest = {
     1454124731,
     0,
     100};
+void MineGenesis(CBlock genesis, uint256 bnProofOfWorkLimit) {
+    printf("Mining genesis block...\n");
 
+	uint256 bnTarget;
+    bool fNegative;
+    bool fOverflow;
+	
+	bnTarget.SetCompact(genesis.nBits, &fNegative, &fOverflow);
+    //for (genesis.nNonce == 0; genesis.GetHash() > bnProofOfWorkLimit; genesis.nNonce++) { } 
+	if(genesis.nNonce == 0){
+		while (genesis.GetHash() > bnTarget){
+			genesis.nNonce++;
+		}
+	}
+
+    printf("Mined genesis block:\n");
+    printf("Merkle root: %s\n", genesis.hashMerkleRoot.ToString().c_str());
+    printf("Nonce: %u\n", genesis.nNonce);
+	printf("Bits: %u\n", genesis.nBits);
+    printf("Hash: %s\n", genesis.GetHash().ToString().c_str());
+	printf("POW: %s\n", bnTarget.ToString().c_str());
+}
 class CMainParams : public CChainParams
 {
 public:
@@ -107,7 +128,7 @@ public:
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
         nTargetTimespan = 1 * 90;      // Insurance: 1 day
-        nTargetSpacing = 2 * 90;       // Insurance: 2 minutes
+        nTargetSpacing = 10 * 60;       // Insurance: 10 minutes
         nStakeMinAge = 24 * 60 * 60;   // Insurance: 24 hours
         nMaturity = 10;
         nMasternodeCountDrift = 20;
@@ -115,7 +136,7 @@ public:
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 1500;
-        nModifierUpdateBlock = 1; // we use the version 2 for SEC
+        nModifierUpdateBlock = 1; // We use the version 2 for SEC
 
 		/**
 		
@@ -141,10 +162,11 @@ public:
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 170208;
 		
-
+		//MineGenesis(genesis, bnProofOfWorkLimit);
+		
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000001a15e30729b914b58a50ca8b1d4dc8a0183e08496789214527b69729cbb"));
-        assert(genesis.hashMerkleRoot == uint256("0x79cb9efb49e4f71e6b6b8ba3c817549e45f56192d15ce1d5a691cf0e5f5869f3"));
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 
         // DNS Seeding
         vSeeds.push_back(CDNSSeedData("207.148.7.125", "207.148.7.125"));
