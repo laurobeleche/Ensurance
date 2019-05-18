@@ -1619,7 +1619,7 @@ int64_t GetBlockValue(int nHeight)
 
     if (nHeight == 0)
         nSubsidy = 70000 * COIN; // Premine: 70,000
-	else if (nHeight <= 1000)
+	else if (nHeight <= 500)
 		nSubsidy = 0 * COIN; // POW fase
     else
         nSubsidy = 1 * COIN;
